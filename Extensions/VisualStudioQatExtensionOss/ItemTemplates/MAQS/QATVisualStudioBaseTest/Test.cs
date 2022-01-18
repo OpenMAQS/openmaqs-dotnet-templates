@@ -1,4 +1,4 @@
-﻿using Magenic.Maqs.BaseTest;
+﻿using CognizantSoftvision.Maqs.BaseTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace $rootnamespace$

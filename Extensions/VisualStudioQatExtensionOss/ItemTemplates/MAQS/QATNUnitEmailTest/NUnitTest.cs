@@ -1,4 +1,4 @@
-﻿using Magenic.Maqs.BaseEmailTest;
+﻿using CognizantSoftvision.Maqs.BaseEmailTest;
 using NUnit.Framework;
 
 namespace $rootnamespace$

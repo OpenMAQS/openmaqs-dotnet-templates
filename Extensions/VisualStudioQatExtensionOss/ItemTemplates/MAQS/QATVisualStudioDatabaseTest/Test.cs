@@ -1,4 +1,4 @@
-﻿using Magenic.Maqs.BaseDatabaseTest;
+﻿using CognizantSoftvision.Maqs.BaseDatabaseTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 

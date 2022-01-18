@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
-using Magenic.Maqs.SpecFlow.TestSteps;
+using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
 using TechTalk.SpecFlow;
 
 namespace $rootnamespace$
