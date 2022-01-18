@@ -56,146 +56,146 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ItemTemplates\Magenic Test\QATAppiumModel.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATAppiumModel.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATNUnitAppiumTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATNUnitAppiumTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATNUnitBaseTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATNUnitBaseTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATNUnitDatabaseTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATNUnitDatabaseTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATNUnitEmailTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATNUnitEmailTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATNUnitSeleniumTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATNUnitSeleniumTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATNUnitWebServiceTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATNUnitWebServiceTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATSeleniumModel.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATSeleniumModel.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATVisualStudioAppiumTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioAppiumTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATVisualStudioBaseTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioBaseTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATVisualStudioDatabaseTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioDatabaseTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATVisualStudioEmailTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioEmailTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATVisualStudioSeleniumTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioSeleniumTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic Test\QATVisualStudioWebServiceTest.zip">
+    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioWebServiceTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\AppiumFeature.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\AppiumFeature.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\AppiumSteps.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\AppiumSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\DatabaseFeature.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\DatabaseFeature.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\DatabaseSteps.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\DatabaseSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\EmailFeature.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\EmailFeature.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\EmailSteps.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\EmailSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\GeneralFeature.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\GeneralFeature.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\GeneralSteps.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\GeneralSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\SeleniumFeature.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\SeleniumFeature.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\SeleniumSteps.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\SeleniumSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\WebServiceFeature.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\WebServiceFeature.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\Magenic SpecFlow Test\WebServiceSteps.zip">
+    <Content Include="ItemTemplates\MAQS ATDD\WebServiceSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test\QATCompositeTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Framework\QATCompositeTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test\QATDatabaseTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Framework\QATDatabaseTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test\QATEmailTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Framework\QATEmailTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test\QATSeleniumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Framework\QATSeleniumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test\QATWebserviceTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Framework\QATWebserviceTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test\QATAppiumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Framework\QATAppiumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test\QATBaseTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Framework\QATBaseTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test Core\QATWebserviceTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Core\QATWebserviceTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test Core\QATAppiumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Core\QATAppiumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test Core\QATBaseTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Core\QATBaseTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test Core\QATCompositeTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Core\QATCompositeTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test Core\QATDatabaseTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Core\QATDatabaseTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test Core\QATEmailTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Core\QATEmailTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic Test Core\QATSeleniumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Core\QATSeleniumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="Overview.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <Content Include="ProjectTemplates\Magenic SpecFlow Test\NUnit\QATNUnitSpecFlowAppiumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowAppiumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic SpecFlow Test\NUnit\QATNUnitSpecFlowCompositeTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowCompositeTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic SpecFlow Test\NUnit\QATNUnitSpecFlowSeleniumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowSeleniumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic SpecFlow Test\QATSpecFlowAppiumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS ATDD\QATSpecFlowAppiumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic SpecFlow Test\QATSpecFlowCompositeTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS ATDD\QATSpecFlowCompositeTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\Magenic SpecFlow Test\QATSpecFlowSeleniumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS ATDD\QATSpecFlowSeleniumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="publishManifest.json">

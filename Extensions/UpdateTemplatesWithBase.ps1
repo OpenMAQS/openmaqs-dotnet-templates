@@ -59,31 +59,31 @@ Function UpdateCore {
     }
  }
 
- UpdateCoreStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Appium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATAppiumTemplate"
- UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Appium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATAppiumTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Magenic.Maqs.Appium.Template" $PSScriptRoot"\CoreTemplates\Magenic.Maqs.Appium.Template"
+ UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Appium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATAppiumTemplate"
+ UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Appium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATAppiumTemplate"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Appium.Template" $PSScriptRoot"\CoreTemplates\Maqs.Appium.Template"
 
 
- UpdateCoreStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Base.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATBaseTemplate"
- UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Base.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATBaseTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Magenic.Maqs.Base.Template" $PSScriptRoot"\CoreTemplates\Magenic.Maqs.Base.Template"
+ UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Base.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATBaseTemplate"
+ UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Base.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATBaseTemplate"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Base.Template" $PSScriptRoot"\CoreTemplates\Maqs.Base.Template"
 
- UpdateCoreStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Composite.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATCompositeTemplate"
- UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Composite.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATCompositeTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Magenic.Maqs.Composite.Template" $PSScriptRoot"\CoreTemplates\Magenic.Maqs.Composite.Template"
+ UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Composite.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATCompositeTemplate"
+ UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Composite.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATCompositeTemplate"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Composite.Template" $PSScriptRoot"\CoreTemplates\Maqs.Composite.Template"
 
- UpdateCoreStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Database.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATDatabaseTemplate"
- UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Database.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATDatabaseTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Magenic.Maqs.Database.Template" $PSScriptRoot"\CoreTemplates\Magenic.Maqs.Database.Template"
+ UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Database.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATDatabaseTemplate"
+ UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Database.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATDatabaseTemplate"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Database.Template" $PSScriptRoot"\CoreTemplates\Maqs.Database.Template"
 
- UpdateCoreStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Email.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATEmailTemplate"
- UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Email.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATEmailTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Magenic.Maqs.Email.Template" $PSScriptRoot"\CoreTemplates\Magenic.Maqs.Email.Template"
+ UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Email.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATEmailTemplate"
+ UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Email.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATEmailTemplate"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Email.Template" $PSScriptRoot"\CoreTemplates\Maqs.Email.Template"
 
- UpdateCoreStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Selenium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATSeleniumTemplate"
- UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Selenium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATSeleniumTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Magenic.Maqs.Selenium.Template" $PSScriptRoot"\CoreTemplates\Magenic.Maqs.Selenium.Template"
+ UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Selenium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATSeleniumTemplate"
+ UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Selenium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATSeleniumTemplate"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Selenium.Template" $PSScriptRoot"\CoreTemplates\Maqs.Selenium.Template"
  
- UpdateCoreStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Webservice.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATWebserviceTemplate"
- UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Magenic.Maqs.Webservice.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATWebserviceTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Magenic.Maqs.Webservice.Template" $PSScriptRoot"\CoreTemplates\Magenic.Maqs.Webservice.Template"
+ UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Webservice.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATWebserviceTemplate"
+ UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Webservice.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATWebserviceTemplate"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Webservice.Template" $PSScriptRoot"\CoreTemplates\Maqs.Webservice.Template"

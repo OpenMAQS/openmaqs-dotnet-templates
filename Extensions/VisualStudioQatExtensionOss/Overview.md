@@ -1,6 +1,6 @@
-﻿# Magenic's Automation Quick Start  
+﻿# Modular Automation Quick Start  
 ## About  
-MAQS stands for Magenic's automation quick start.
+MAQS stands for modular automation quick start.
 
 It …
  - is a modular test automation framework

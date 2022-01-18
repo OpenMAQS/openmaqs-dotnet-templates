@@ -3,123 +3,123 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreTemplates", "CoreTemplates", "{48E26093-109B-4351-A7A4-BD7B97AFCA84}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "CoreTemplates", "CoreTemplates", "{48E26093-109B-4351-A7A4-BD7B97AFCA84}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VisualStudioQatExtensionOss", "VisualStudioQatExtensionOss", "{519F8006-EDE6-4055-A136-8F616ECF9FBE}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "VisualStudioQatExtensionOss", "VisualStudioQatExtensionOss", "{519F8006-EDE6-4055-A136-8F616ECF9FBE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magenic.Maqs.Appium.Template", "Magenic.Maqs.Appium.Template", "{73F5C935-E157-4204-A036-4C29FFC27BF5}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Appium.Template", "Maqs.Appium.Template", "{73F5C935-E157-4204-A036-4C29FFC27BF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Magenic.Maqs.Appium.Template\Tests\Tests.csproj", "{6FC6A4A5-D88E-4750-8A6C-4457243D43B8}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Appium.Template\Tests\Tests.csproj", "{6FC6A4A5-D88E-4750-8A6C-4457243D43B8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magenic.Maqs.Base.Template", "Magenic.Maqs.Base.Template", "{D9DF7923-4E8E-4D9D-A955-1B1F54850FDF}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Base.Template", "Maqs.Base.Template", "{D9DF7923-4E8E-4D9D-A955-1B1F54850FDF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Magenic.Maqs.Base.Template\Tests\Tests.csproj", "{DAFCCCC6-7467-4136-A1C4-F929F553AAE3}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Base.Template\Tests\Tests.csproj", "{DAFCCCC6-7467-4136-A1C4-F929F553AAE3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magenic.Maqs.Composite.Template", "Magenic.Maqs.Composite.Template", "{AF3A6D1C-1796-45B3-9FCC-9DE80F498D37}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Composite.Template", "Maqs.Composite.Template", "{AF3A6D1C-1796-45B3-9FCC-9DE80F498D37}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Magenic.Maqs.Composite.Template\Tests\Tests.csproj", "{2870CB9D-D604-475A-866E-A68D817EA141}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Composite.Template\Tests\Tests.csproj", "{2870CB9D-D604-475A-866E-A68D817EA141}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magenic.Maqs.Database.Template", "Magenic.Maqs.Database.Template", "{FD51E54F-963C-4E5C-87C8-CC3290823B8F}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Database.Template", "Maqs.Database.Template", "{FD51E54F-963C-4E5C-87C8-CC3290823B8F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Magenic.Maqs.Database.Template\Tests\Tests.csproj", "{8A95C992-C57A-475B-B5A0-1221E43B025B}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Database.Template\Tests\Tests.csproj", "{8A95C992-C57A-475B-B5A0-1221E43B025B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magenic.Maqs.Email.Template", "Magenic.Maqs.Email.Template", "{527D4C8F-5D1A-4522-A0B5-2FC2BCAB530F}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Email.Template", "Maqs.Email.Template", "{527D4C8F-5D1A-4522-A0B5-2FC2BCAB530F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Magenic.Maqs.Email.Template\Tests\Tests.csproj", "{27B91705-0EF7-4167-A5F8-8CDABFF55544}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Email.Template\Tests\Tests.csproj", "{27B91705-0EF7-4167-A5F8-8CDABFF55544}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magenic.Maqs.Selenium.Template", "Magenic.Maqs.Selenium.Template", "{5596B091-E2B5-4B98-AECD-330552856ACE}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Selenium.Template", "Maqs.Selenium.Template", "{5596B091-E2B5-4B98-AECD-330552856ACE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Magenic.Maqs.Selenium.Template\Tests\Tests.csproj", "{7B428FE1-04D3-4039-8B2F-49B4D77E301E}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Selenium.Template\Tests\Tests.csproj", "{7B428FE1-04D3-4039-8B2F-49B4D77E301E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magenic.Maqs.Webservice.Template", "Magenic.Maqs.Webservice.Template", "{5191E0A3-72D9-4EBB-B32C-5F611B680673}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Webservice.Template", "Maqs.Webservice.Template", "{5191E0A3-72D9-4EBB-B32C-5F611B680673}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Magenic.Maqs.Webservice.Template\Tests\Tests.csproj", "{586249E6-ABEF-443C-9CC3-022A68F57C2B}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Webservice.Template\Tests\Tests.csproj", "{586249E6-ABEF-443C-9CC3-022A68F57C2B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magenic Test", "Magenic Test", "{ADDA9DD8-6815-41D2-85F3-C6A76AF10416}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "MAQS Framework", "MAQS Framework", "{ADDA9DD8-6815-41D2-85F3-C6A76AF10416}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magenic Test Core", "Magenic Test Core", "{C3DB4003-7E4E-4327-9F00-E1B89125B8D0}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "MAQS Core", "MAQS Core", "{C3DB4003-7E4E-4327-9F00-E1B89125B8D0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATAppiumTemplate", "QATAppiumTemplate", "{36439012-8CA3-4CC9-ACB7-2C5283D9D72D}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATAppiumTemplate", "QATAppiumTemplate", "{36439012-8CA3-4CC9-ACB7-2C5283D9D72D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATAppiumTemplate\Tests\Tests.csproj", "{EA69FF7D-6675-4116-A3DE-82FB2EF112EF}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATAppiumTemplate\Tests\Tests.csproj", "{EA69FF7D-6675-4116-A3DE-82FB2EF112EF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATBaseTemplate", "QATBaseTemplate", "{B99C036A-4158-420B-A5FF-A4735FA15488}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATBaseTemplate", "QATBaseTemplate", "{B99C036A-4158-420B-A5FF-A4735FA15488}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATBaseTemplate\Tests\Tests.csproj", "{F9168D7B-517D-4053-BE60-4EE7371458A3}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATBaseTemplate\Tests\Tests.csproj", "{F9168D7B-517D-4053-BE60-4EE7371458A3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATCompositeTemplate", "QATCompositeTemplate", "{479CE585-E6ED-438E-8B99-4F9CD9BFF65D}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATCompositeTemplate", "QATCompositeTemplate", "{479CE585-E6ED-438E-8B99-4F9CD9BFF65D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATCompositeTemplate\Tests\Tests.csproj", "{A3E85733-AC06-4570-A516-D8F003AB5BDB}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATCompositeTemplate\Tests\Tests.csproj", "{A3E85733-AC06-4570-A516-D8F003AB5BDB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATDatabaseTemplate", "QATDatabaseTemplate", "{E6A96E12-27DE-422D-93A5-2900FDD54E65}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATDatabaseTemplate", "QATDatabaseTemplate", "{E6A96E12-27DE-422D-93A5-2900FDD54E65}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATDatabaseTemplate\Tests\Tests.csproj", "{89D4CED2-DB87-4246-A445-F5C7A5960F5B}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATDatabaseTemplate\Tests\Tests.csproj", "{89D4CED2-DB87-4246-A445-F5C7A5960F5B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATEmailTemplate", "QATEmailTemplate", "{6435E798-C29F-4FEF-B22F-1C8828A12A59}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATEmailTemplate", "QATEmailTemplate", "{6435E798-C29F-4FEF-B22F-1C8828A12A59}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATEmailTemplate\Tests\Tests.csproj", "{EC1C8753-5030-459F-B6E9-CD1D2B98E2B3}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATEmailTemplate\Tests\Tests.csproj", "{EC1C8753-5030-459F-B6E9-CD1D2B98E2B3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATSeleniumTemplate", "QATSeleniumTemplate", "{FD5B5DA4-8ACB-4BC7-978D-39FAC60CE079}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATSeleniumTemplate", "QATSeleniumTemplate", "{FD5B5DA4-8ACB-4BC7-978D-39FAC60CE079}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATSeleniumTemplate\Tests\Tests.csproj", "{CC065DF9-1B2C-4123-B7F6-743237DB11A1}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATSeleniumTemplate\Tests\Tests.csproj", "{CC065DF9-1B2C-4123-B7F6-743237DB11A1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATWebserviceTemplate", "QATWebserviceTemplate", "{28FC16FF-EF37-4241-8E8B-E383F4499C38}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATWebserviceTemplate", "QATWebserviceTemplate", "{28FC16FF-EF37-4241-8E8B-E383F4499C38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test\QATWebserviceTemplate\Tests\Tests.csproj", "{50D46138-38A9-40C1-8310-EAA146A41E68}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATWebserviceTemplate\Tests\Tests.csproj", "{50D46138-38A9-40C1-8310-EAA146A41E68}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATAppiumTemplate", "QATAppiumTemplate", "{A13F197D-1A81-4A39-9117-F10BD91A9C70}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATAppiumTemplate", "QATAppiumTemplate", "{A13F197D-1A81-4A39-9117-F10BD91A9C70}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATAppiumTemplate\Tests\Tests.csproj", "{9B125168-E51A-45ED-A635-F07731C13665}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATAppiumTemplate\Tests\Tests.csproj", "{9B125168-E51A-45ED-A635-F07731C13665}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATBaseTemplate", "QATBaseTemplate", "{9B180E95-FEC8-4DF7-8780-465112AFED82}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATBaseTemplate", "QATBaseTemplate", "{9B180E95-FEC8-4DF7-8780-465112AFED82}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATBaseTemplate\Tests\Tests.csproj", "{D1769AC8-91F8-4CE5-A737-BA3D24330508}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATBaseTemplate\Tests\Tests.csproj", "{D1769AC8-91F8-4CE5-A737-BA3D24330508}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATCompositeTemplate", "QATCompositeTemplate", "{79E9AF4E-F3DB-41BF-A11E-85B29C2EAE99}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATCompositeTemplate", "QATCompositeTemplate", "{79E9AF4E-F3DB-41BF-A11E-85B29C2EAE99}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATCompositeTemplate\Tests\Tests.csproj", "{AC0D7F14-42A2-4DA6-B45D-0D4B98377617}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATCompositeTemplate\Tests\Tests.csproj", "{AC0D7F14-42A2-4DA6-B45D-0D4B98377617}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATDatabaseTemplate", "QATDatabaseTemplate", "{CBC28E2B-5F70-4A55-8DBE-B38219643A4D}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATDatabaseTemplate", "QATDatabaseTemplate", "{CBC28E2B-5F70-4A55-8DBE-B38219643A4D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATDatabaseTemplate\Tests\Tests.csproj", "{37743B7D-44F2-4823-A120-D254ABC2D76E}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATDatabaseTemplate\Tests\Tests.csproj", "{37743B7D-44F2-4823-A120-D254ABC2D76E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATEmailTemplate", "QATEmailTemplate", "{49958445-9A27-4006-BB94-DC5320D5E07D}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATEmailTemplate", "QATEmailTemplate", "{49958445-9A27-4006-BB94-DC5320D5E07D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATEmailTemplate\Tests\Tests.csproj", "{8B97C4A7-8C1D-4E0B-AE8C-09769F135477}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATEmailTemplate\Tests\Tests.csproj", "{8B97C4A7-8C1D-4E0B-AE8C-09769F135477}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATSeleniumTemplate", "QATSeleniumTemplate", "{AD691749-6929-4AF1-BCA9-17BE444D056F}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATSeleniumTemplate", "QATSeleniumTemplate", "{AD691749-6929-4AF1-BCA9-17BE444D056F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATSeleniumTemplate\Tests\Tests.csproj", "{FBC18186-00DA-4F07-9A02-3B6F7EB00F3B}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATSeleniumTemplate\Tests\Tests.csproj", "{FBC18186-00DA-4F07-9A02-3B6F7EB00F3B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATWebserviceTemplate", "QATWebserviceTemplate", "{73FDBC34-CF78-4720-9DAF-FD72EF14E727}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATWebserviceTemplate", "QATWebserviceTemplate", "{73FDBC34-CF78-4720-9DAF-FD72EF14E727}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core\QATWebserviceTemplate\Tests\Tests.csproj", "{B56CB921-1008-4216-82C5-634EFBB981EC}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATWebserviceTemplate\Tests\Tests.csproj", "{B56CB921-1008-4216-82C5-634EFBB981EC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpecFlow", "SpecFlow", "{6D67E3C8-9F56-4F13-910E-C064E49F625B}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "SpecFlow", "SpecFlow", "{6D67E3C8-9F56-4F13-910E-C064E49F625B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic SpecFlow Test\QATSpecFlowAppiumTemplate\Tests\Tests.csproj", "{C80CAAFD-69BD-4C03-9A01-299888FBFE8D}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\QATSpecFlowAppiumTemplate\Tests\Tests.csproj", "{C80CAAFD-69BD-4C03-9A01-299888FBFE8D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATSpecFlowAppiumTemplate", "QATSpecFlowAppiumTemplate", "{00893E48-8155-405C-AF36-3360FF2E3EDC}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATSpecFlowAppiumTemplate", "QATSpecFlowAppiumTemplate", "{00893E48-8155-405C-AF36-3360FF2E3EDC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATSpecFlowCompositeTemplate", "QATSpecFlowCompositeTemplate", "{DFBF58DB-8D0F-40D7-AC03-C6A091F32E6E}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATSpecFlowCompositeTemplate", "QATSpecFlowCompositeTemplate", "{DFBF58DB-8D0F-40D7-AC03-C6A091F32E6E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic SpecFlow Test\QATSpecFlowCompositeTemplate\Tests\Tests.csproj", "{8EADE8DD-8963-4440-A249-063694C892B3}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\QATSpecFlowCompositeTemplate\Tests\Tests.csproj", "{8EADE8DD-8963-4440-A249-063694C892B3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATSpecFlowSeleniumTemplate", "QATSpecFlowSeleniumTemplate", "{B43DACD4-0DBE-4CD3-A849-A8D2589661C5}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATSpecFlowSeleniumTemplate", "QATSpecFlowSeleniumTemplate", "{B43DACD4-0DBE-4CD3-A849-A8D2589661C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic SpecFlow Test\QATSpecFlowSeleniumTemplate\Tests\Tests.csproj", "{EC65954E-6142-4B05-B6D0-399D96503E3D}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\QATSpecFlowSeleniumTemplate\Tests\Tests.csproj", "{EC65954E-6142-4B05-B6D0-399D96503E3D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATNUnitSpecFlowAppiumTemplate", "QATNUnitSpecFlowAppiumTemplate", "{F2176BDF-9C5C-4107-A465-95EE06E9615F}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATNUnitSpecFlowAppiumTemplate", "QATNUnitSpecFlowAppiumTemplate", "{F2176BDF-9C5C-4107-A465-95EE06E9615F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic SpecFlow Test\NUnit\QATNUnitSpecFlowAppiumTemplate\Tests\Tests.csproj", "{9468B54D-4A33-4C9A-AFB8-03C45A6E8293}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowAppiumTemplate\Tests\Tests.csproj", "{9468B54D-4A33-4C9A-AFB8-03C45A6E8293}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATNUnitSpecFlowCompositeTemplate", "QATNUnitSpecFlowCompositeTemplate", "{637A9917-840F-479B-BF32-0F4ACD12EC0A}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATNUnitSpecFlowCompositeTemplate", "QATNUnitSpecFlowCompositeTemplate", "{637A9917-840F-479B-BF32-0F4ACD12EC0A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic SpecFlow Test\NUnit\QATNUnitSpecFlowCompositeTemplate\Tests\Tests.csproj", "{D9F5A031-964D-464F-A628-2067E110A186}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowCompositeTemplate\Tests\Tests.csproj", "{D9F5A031-964D-464F-A628-2067E110A186}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QATNUnitSpecFlowSeleniumTemplate", "QATNUnitSpecFlowSeleniumTemplate", "{381D7C36-7F46-475E-A692-533E9CDB522A}"
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATNUnitSpecFlowSeleniumTemplate", "QATNUnitSpecFlowSeleniumTemplate", "{381D7C36-7F46-475E-A692-533E9CDB522A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\Magenic SpecFlow Test\NUnit\QATNUnitSpecFlowSeleniumTemplate\Tests\Tests.csproj", "{499CFF64-CE72-4262-98DE-DD657934D99D}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowSeleniumTemplate\Tests\Tests.csproj", "{499CFF64-CE72-4262-98DE-DD657934D99D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -299,6 +299,6 @@ Global
 		{499CFF64-CE72-4262-98DE-DD657934D99D} = {381D7C36-7F46-475E-A692-533E9CDB522A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FBAB26C3-5C6B-4AD1-9FD6-9054379784C3}
+		SolutionGuid = {FBAB26C3-5B6A-4AD1-9FD6-9054379784C3}
 	EndGlobalSection
 EndGlobal

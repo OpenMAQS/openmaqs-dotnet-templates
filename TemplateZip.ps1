@@ -66,12 +66,12 @@ function ZipFiles($inputDirectory, $outputDirectory) {
 
 function WorkflowFunction($openSource, $specSource) {
     if ($openSource) {
-        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\Magenic SpecFlow Test" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\Magenic SpecFlow Test"
-        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\Magenic SpecFlow Test\NUnit" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\Magenic SpecFlow Test\NUnit"
-        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test"
-        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\Magenic Test Core"
-        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\Magenic Test" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\Magenic Test"
-        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\Magenic SpecFlow Test" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\Magenic SpecFlow Test"        
+        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD"
+        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit"
+        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework"
+        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core"
+        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS Framework" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS Framework"
+        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS ATDD" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS ATDD"        
     }
     
 }

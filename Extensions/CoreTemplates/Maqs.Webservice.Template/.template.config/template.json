@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "CognizantSoftvision",
+  "classifications": [ "Test" ], 
+  "name": "CognizantSoftvision.Maqs.Webservice",
+  "identity": "CognizantSoftvision.Maqs.Webservice.CSharp",         
+  "groupIdentity":"CognizantSoftvision.Maqs.Webservice.Sample",
+  "shortName": "Maqs.Webservice",
+  "tags": {
+    "language": "C#",
+    "type":"project"
+  },
+  "sources": [
+    {
+      "copyOnly": "**/*"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/vsix-publish",
   "categories": [ "Visual Studio Extensions" ],
   "identity": {
-    "description": "Magenic's automation quick start framework",
+    "description": "Modular automation quick start framework",
     "displayName": "MAQS Framework",
     "internalName": "MAQSOpenFramework"
   },
@@ -11,5 +11,5 @@
   "publisher": "vs-publisher-1465771",
   "private": false,
   "qna": true,
-  "repo": "https://github.com/Magenic/MAQS"
+  "repo": "https://github.com/CognizantOpenSource/maqs-dotnet"
 }
