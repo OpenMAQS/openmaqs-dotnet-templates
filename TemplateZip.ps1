@@ -27,6 +27,11 @@
   Author:         Magenic
   Creation Date:  11/6/2021
   Purpose/Change: Add SpecFlow templates.
+
+  Version:        5.0
+  Author:         Cognizant
+  Creation Date:  01/18/2022
+  Purpose/Change: Update for Cognizant Softvision. 
   
 .EXAMPLE
   ./TemplateUpdates
@@ -70,7 +75,7 @@ function WorkflowFunction($openSource, $specSource) {
         ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit"
         ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework"
         ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core"
-        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS Framework" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS Framework"
+        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS"
         ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS ATDD" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS ATDD"        
     }
     

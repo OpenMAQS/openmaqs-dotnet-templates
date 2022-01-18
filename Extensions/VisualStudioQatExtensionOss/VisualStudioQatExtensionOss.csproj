@@ -56,46 +56,46 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ItemTemplates\MAQS Framework\QATAppiumModel.zip">
+    <Content Include="ItemTemplates\MAQS\QATAppiumModel.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATNUnitAppiumTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATNUnitAppiumTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATNUnitBaseTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATNUnitBaseTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATNUnitDatabaseTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATNUnitDatabaseTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATNUnitEmailTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATNUnitEmailTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATNUnitSeleniumTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATNUnitSeleniumTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATNUnitWebServiceTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATNUnitWebServiceTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATSeleniumModel.zip">
+    <Content Include="ItemTemplates\MAQS\QATSeleniumModel.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioAppiumTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATVisualStudioAppiumTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioBaseTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATVisualStudioBaseTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioDatabaseTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATVisualStudioDatabaseTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioEmailTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATVisualStudioEmailTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioSeleniumTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATVisualStudioSeleniumTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS Framework\QATVisualStudioWebServiceTest.zip">
+    <Content Include="ItemTemplates\MAQS\QATVisualStudioWebServiceTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ItemTemplates\MAQS ATDD\AppiumFeature.zip">

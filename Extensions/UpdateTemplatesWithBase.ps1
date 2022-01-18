@@ -9,6 +9,11 @@
   Author:         Magenic
   Creation Date:  05/10/2021
   Purpose/Change: Initial script development. 
+
+  Version:        2.0
+  Author:         Cognizant
+  Creation Date:  01/18/2022
+  Purpose/Change: Update for Cognizant Softvision. 
 #>
 
 Function UpdateCore {
