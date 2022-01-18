@@ -1,4 +1,4 @@
-﻿using Magenic.Maqs.BaseTest;
+﻿using CognizantSoftvision.Maqs.BaseTest;
 using NUnit.Framework;
 
 namespace Tests

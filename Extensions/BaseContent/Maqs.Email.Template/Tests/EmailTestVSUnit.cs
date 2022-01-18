@@ -1,4 +1,4 @@
-﻿using Magenic.Maqs.BaseEmailTest;
+﻿using CognizantSoftvision.Maqs.BaseEmailTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests
