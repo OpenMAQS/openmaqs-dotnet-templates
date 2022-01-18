@@ -1,5 +1,5 @@
-﻿using Magenic.Maqs.SpecFlow.TestSteps;
-using Magenic.Maqs.Utilities.Helper;
+﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
+using CognizantSoftvision.Maqs.Utilities.Helper;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Models.WebPage;
 using System;
