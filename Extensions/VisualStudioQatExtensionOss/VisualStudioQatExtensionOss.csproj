@@ -22,7 +22,7 @@
     <ProjectGuid>{189692F4-1DFD-49D8-9A9E-FEA925DF340F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Magenic.Maqs</RootNamespace>
+    <RootNamespace>CognizantSoftvision.Maqs</RootNamespace>
     <AssemblyName>OpenMaqs</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -98,41 +98,41 @@
     <Content Include="ItemTemplates\MAQS\QATVisualStudioWebServiceTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\AppiumFeature.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\AppiumFeature.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\AppiumSteps.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\AppiumSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\DatabaseFeature.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\DatabaseFeature.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\DatabaseSteps.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\DatabaseSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\EmailFeature.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\EmailFeature.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\EmailSteps.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\EmailSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\GeneralFeature.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\GeneralFeature.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\GeneralSteps.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\GeneralSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\SeleniumFeature.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\SeleniumFeature.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\SeleniumSteps.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\SeleniumSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\WebServiceFeature.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\WebServiceFeature.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ItemTemplates\MAQS ATDD\WebServiceSteps.zip">
+    <Content Include="ItemTemplates\MAQS Gherkin\WebServiceSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ProjectTemplates\MAQS Framework\QATCompositeTemplate.zip">
@@ -180,22 +180,22 @@
     <None Include="Overview.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <Content Include="ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowAppiumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Gherkin\NUnit\QATNUnitSpecFlowAppiumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowCompositeTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Gherkin\NUnit\QATNUnitSpecFlowCompositeTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowSeleniumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Gherkin\NUnit\QATNUnitSpecFlowSeleniumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\MAQS ATDD\QATSpecFlowAppiumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Gherkin\QATSpecFlowAppiumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\MAQS ATDD\QATSpecFlowCompositeTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Gherkin\QATSpecFlowCompositeTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="ProjectTemplates\MAQS ATDD\QATSpecFlowSeleniumTemplate.zip">
+    <Content Include="ProjectTemplates\MAQS Gherkin\QATSpecFlowSeleniumTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="publishManifest.json">

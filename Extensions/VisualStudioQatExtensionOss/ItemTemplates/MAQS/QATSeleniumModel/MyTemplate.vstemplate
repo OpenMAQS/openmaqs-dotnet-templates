@@ -2,13 +2,13 @@
   <TemplateData>
     <DefaultName>Model.cs</DefaultName>
     <Name>MAQS Selenium Page Model Class</Name>
-    <Description>Magenic's automation quick start framework Selenium page model template</Description>
+    <Description>Modular automation quick start framework Selenium page model template</Description>
     <ProjectType>CSharp</ProjectType>
     <LanguageTag>C#</LanguageTag>
     <PlatformTag>windows</PlatformTag>
     <ProjectTypeTag>test</ProjectTypeTag>
-    <ProjectTypeTag>Magenic Test</ProjectTypeTag>
-	<ProjectSubType>Magenic Test</ProjectSubType>
+    <ProjectTypeTag>MAQS</ProjectTypeTag>
+	<ProjectSubType>MAQS</ProjectSubType>
     <SortOrder>10</SortOrder>
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>

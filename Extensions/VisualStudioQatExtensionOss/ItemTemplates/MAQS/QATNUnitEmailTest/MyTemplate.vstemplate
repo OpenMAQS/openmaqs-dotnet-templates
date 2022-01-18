@@ -2,13 +2,13 @@
   <TemplateData>
     <DefaultName>NUnitTest.cs</DefaultName>
     <Name>MAQS Email NUnit Test Class</Name>
-    <Description>Magenic's automation quick start framework template: Email tests run using NUnit</Description>
+    <Description>Modular automation quick start framework template: Email tests run using NUnit</Description>
     <ProjectType>CSharp</ProjectType>
     <LanguageTag>C#</LanguageTag>
     <PlatformTag>windows</PlatformTag>
     <ProjectTypeTag>test</ProjectTypeTag>
-    <ProjectTypeTag>Magenic Test</ProjectTypeTag>
-	<ProjectSubType>Magenic Test</ProjectSubType>
+    <ProjectTypeTag>MAQS</ProjectTypeTag>
+	<ProjectSubType>MAQS</ProjectSubType>
     <SortOrder>10</SortOrder>
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>

@@ -71,12 +71,12 @@ function ZipFiles($inputDirectory, $outputDirectory) {
 
 function WorkflowFunction($openSource, $specSource) {
     if ($openSource) {
-        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD"
-        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit"
+        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Gherkin" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Gherkin"
+        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Gherkin\NUnit" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Gherkin\NUnit"
         ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework"
         ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core"
         ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS"
-        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS ATDD" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS ATDD"        
+        ZipFiles $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS Gherkin" $PSScriptRoot"\Extensions\VisualStudioQatExtensionOss\ItemTemplates\MAQS Gherkin"        
     }
     
 }

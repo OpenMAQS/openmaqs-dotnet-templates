@@ -97,29 +97,29 @@ Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExt
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "SpecFlow", "SpecFlow", "{6D67E3C8-9F56-4F13-910E-C064E49F625B}"
 EndProject
-Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\QATSpecFlowAppiumTemplate\Tests\Tests.csproj", "{C80CAAFD-69BD-4C03-9A01-299888FBFE8D}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Gherkin\QATSpecFlowAppiumTemplate\Tests\Tests.csproj", "{C80CAAFD-69BD-4C03-9A01-299888FBFE8D}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATSpecFlowAppiumTemplate", "QATSpecFlowAppiumTemplate", "{00893E48-8155-405C-AF36-3360FF2E3EDC}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATSpecFlowCompositeTemplate", "QATSpecFlowCompositeTemplate", "{DFBF58DB-8D0F-40D7-AC03-C6A091F32E6E}"
 EndProject
-Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\QATSpecFlowCompositeTemplate\Tests\Tests.csproj", "{8EADE8DD-8963-4440-A249-063694C892B3}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Gherkin\QATSpecFlowCompositeTemplate\Tests\Tests.csproj", "{8EADE8DD-8963-4440-A249-063694C892B3}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATSpecFlowSeleniumTemplate", "QATSpecFlowSeleniumTemplate", "{B43DACD4-0DBE-4CD3-A849-A8D2589661C5}"
 EndProject
-Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\QATSpecFlowSeleniumTemplate\Tests\Tests.csproj", "{EC65954E-6142-4B05-B6D0-399D96503E3D}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Gherkin\QATSpecFlowSeleniumTemplate\Tests\Tests.csproj", "{EC65954E-6142-4B05-B6D0-399D96503E3D}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATNUnitSpecFlowAppiumTemplate", "QATNUnitSpecFlowAppiumTemplate", "{F2176BDF-9C5C-4107-A465-95EE06E9615F}"
 EndProject
-Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowAppiumTemplate\Tests\Tests.csproj", "{9468B54D-4A33-4C9A-AFB8-03C45A6E8293}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Gherkin\NUnit\QATNUnitSpecFlowAppiumTemplate\Tests\Tests.csproj", "{9468B54D-4A33-4C9A-AFB8-03C45A6E8293}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATNUnitSpecFlowCompositeTemplate", "QATNUnitSpecFlowCompositeTemplate", "{637A9917-840F-479B-BF32-0F4ACD12EC0A}"
 EndProject
-Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowCompositeTemplate\Tests\Tests.csproj", "{D9F5A031-964D-464F-A628-2067E110A186}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Gherkin\NUnit\QATNUnitSpecFlowCompositeTemplate\Tests\Tests.csproj", "{D9F5A031-964D-464F-A628-2067E110A186}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATNUnitSpecFlowSeleniumTemplate", "QATNUnitSpecFlowSeleniumTemplate", "{381D7C36-7F46-475E-A692-533E9CDB522A}"
 EndProject
-Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS ATDD\NUnit\QATNUnitSpecFlowSeleniumTemplate\Tests\Tests.csproj", "{499CFF64-CE72-4262-98DE-DD657934D99D}"
+Project("{9A19103F-16F7-4668-AD54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Gherkin\NUnit\QATNUnitSpecFlowSeleniumTemplate\Tests\Tests.csproj", "{499CFF64-CE72-4262-98DE-DD657934D99D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

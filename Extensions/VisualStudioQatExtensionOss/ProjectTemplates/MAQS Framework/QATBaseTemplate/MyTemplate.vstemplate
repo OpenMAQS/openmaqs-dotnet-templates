@@ -3,14 +3,14 @@
     <TemplateData>
         <Name>MAQS - Base (.Net Framework, SDK Style)</Name>
 		<DefaultName>BaseTests</DefaultName>
-        <Description>Magenic's automation quick start framework for base testing</Description>
+        <Description>Modular automation quick start framework for base testing</Description>
         <Icon>QATTest.ico</Icon>
         <ProjectType>CSharp</ProjectType>
     <LanguageTag>C#</LanguageTag>
     <PlatformTag>windows</PlatformTag>
     <ProjectTypeTag>test</ProjectTypeTag>
-    <ProjectTypeTag>Magenic Test</ProjectTypeTag>
-		<ProjectSubType>Magenic Test</ProjectSubType>
+    <ProjectTypeTag>MAQS</ProjectTypeTag>
+		<ProjectSubType>MAQS</ProjectSubType>
     </TemplateData>
     <TemplateContent>
         <ProjectCollection>

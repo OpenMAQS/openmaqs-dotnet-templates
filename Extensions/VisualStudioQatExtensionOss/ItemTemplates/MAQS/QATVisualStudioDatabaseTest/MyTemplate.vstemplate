@@ -2,13 +2,13 @@
   <TemplateData>
     <DefaultName>Test.cs</DefaultName>
     <Name>MAQS Database VS Test Class</Name>
-    <Description>Magenic's automation quick start framework template: Database tests run using the built in Visual Studio unit test runner</Description>
+    <Description>Modular automation quick start framework template: Database tests run using the built in Visual Studio unit test runner</Description>
     <ProjectType>CSharp</ProjectType>
     <LanguageTag>C#</LanguageTag>
     <PlatformTag>windows</PlatformTag>
     <ProjectTypeTag>test</ProjectTypeTag>
-    <ProjectTypeTag>Magenic Test</ProjectTypeTag>
-	<ProjectSubType>Magenic Test</ProjectSubType>
+    <ProjectTypeTag>MAQS</ProjectTypeTag>
+	<ProjectSubType>MAQS</ProjectSubType>
     <SortOrder>10</SortOrder>
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>

@@ -6,8 +6,8 @@
     <LanguageTag>C#</LanguageTag>
     <PlatformTag>windows</PlatformTag>
     <ProjectTypeTag>test</ProjectTypeTag>
-    <ProjectTypeTag>Magenic Test</ProjectTypeTag>
-    <ProjectSubType>Magenic Test</ProjectSubType>
+    <ProjectTypeTag>MAQS</ProjectTypeTag>
+    <ProjectSubType>MAQS</ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>Tests</DefaultName>
