@@ -63,7 +63,6 @@ Function UpdateCore {
  UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Appium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATAppiumTemplate"
  UpdateCore $PSScriptRoot"\BaseContent\Maqs.Appium.Template" $PSScriptRoot"\CoreTemplates\Maqs.Appium.Template"
 
-
  UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Base.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATBaseTemplate"
  UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Base.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATBaseTemplate"
  UpdateCore $PSScriptRoot"\BaseContent\Maqs.Base.Template" $PSScriptRoot"\CoreTemplates\Maqs.Base.Template"

@@ -1,4 +1,4 @@
-using Magenic.Maqs.BaseWebServiceTest;
+using CognizantSoftvision.Maqs.BaseWebServiceTest;
 using NUnit.Framework;
 using WebServiceModel;
 

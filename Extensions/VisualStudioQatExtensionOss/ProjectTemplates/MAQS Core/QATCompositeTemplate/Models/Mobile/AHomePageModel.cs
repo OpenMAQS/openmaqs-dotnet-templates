@@ -1,4 +1,4 @@
-﻿using Magenic.Maqs.BaseAppiumTest;
+﻿using CognizantSoftvision.Maqs.BaseAppiumTest;
 
 namespace Models.Mobile
 {
