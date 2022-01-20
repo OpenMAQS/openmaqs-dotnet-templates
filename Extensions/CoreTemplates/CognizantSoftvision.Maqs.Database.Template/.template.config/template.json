@@ -2,10 +2,10 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "CognizantSoftvision",
   "classifications": [ "Test" ], 
-  "name": "CognizantSoftvision.Maqs.Appium",
-  "identity": "CognizantSoftvision.Maqs.Appium.CSharp",         
-  "groupIdentity":"CognizantSoftvision.Maqs.Appium.Sample",
-  "shortName": "Maqs.Appium",
+  "name": "CognizantSoftvision MAQS database template",
+  "identity": "CognizantSoftvision.Maqs.Database.CSharp",         
+  "groupIdentity":"CognizantSoftvision.Maqs.Database.Sample",
+  "shortName": "Maqs.Database",
   "tags": {
     "language": "C#",
     "type":"project"
