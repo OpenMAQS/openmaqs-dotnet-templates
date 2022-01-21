@@ -145,37 +145,37 @@ jobs:
               mkdir Results
               mkdir Appium
               cd Appium
-              dotnet new Maqs.Appium
+              dotnet new MaqsAppium
               dotnet test --logger trx --results-directory "${{github.workspace}}/Results/"
               cd ..
               mkdir Base
               cd Base
-              dotnet new Maqs.Base
+              dotnet new MaqsBase
               dotnet test --logger trx --results-directory "${{github.workspace}}/Results/"
               cd ..
               mkdir Composite
               cd Composite
-              dotnet new Maqs.Composite
+              dotnet new MaqsComposite
               dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name=\"SeleniumMaqs:Browser\",value=\"HeadlessChrome\")' 
               cd ..
               mkdir Database
               cd Database
-              dotnet new Maqs.Database
+              dotnet new MaqsDatabase
               dotnet test --logger trx --results-directory "${{github.workspace}}/Results/"
               cd ..
               mkdir Email
               cd Email
-              dotnet new Maqs.Email
+              dotnet new MaqsEmail
               dotnet test --logger trx --results-directory "${{github.workspace}}/Results/"
               cd ..
               mkdir Selenium
               cd Selenium
-              dotnet new Maqs.Selenium
+              dotnet new MaqsSelenium
               dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name=\"SeleniumMaqs:Browser\",value=\"HeadlessChrome\")' 
               cd ..
               mkdir Webservice
               cd Webservice
-              dotnet new Maqs.Webservice
+              dotnet new MaqsWebservice
               dotnet test --logger trx --results-directory "${{github.workspace}}/Results/"
               
       - name: Test Report

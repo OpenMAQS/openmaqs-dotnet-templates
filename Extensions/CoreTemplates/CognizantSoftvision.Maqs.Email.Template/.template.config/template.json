@@ -2,10 +2,10 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "CognizantSoftvision",
   "classifications": [ "Test" ], 
-  "name": "CognizantSoftvision.Maqs.Appium",
-  "identity": "CognizantSoftvision.Maqs.Appium.CSharp",         
-  "groupIdentity":"CognizantSoftvision.Maqs.Appium.Sample",
-  "shortName": "Maqs.Appium",
+  "name": "CognizantSoftvision MAQS email template",
+  "identity": "CognizantSoftvision.Maqs.Email.CSharp",         
+  "groupIdentity":"CognizantSoftvision.Maqs.Email.Sample",
+  "shortName": "MaqsEmail",
   "tags": {
     "language": "C#",
     "type":"project"
