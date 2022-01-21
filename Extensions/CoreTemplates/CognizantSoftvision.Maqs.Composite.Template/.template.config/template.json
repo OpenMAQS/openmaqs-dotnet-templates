@@ -5,7 +5,7 @@
   "name": "CognizantSoftvision MAQS composite template",
   "identity": "CognizantSoftvision.Maqs.Composite.CSharp",         
   "groupIdentity":"CognizantSoftvision.Maqs.Composite.Sample",
-  "shortName": "Maqs.Composite",
+  "shortName": "MaqsComposite",
   "tags": {
     "language": "C#",
     "type":"project"

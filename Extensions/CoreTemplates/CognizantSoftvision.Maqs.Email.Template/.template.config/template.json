@@ -5,7 +5,7 @@
   "name": "CognizantSoftvision MAQS email template",
   "identity": "CognizantSoftvision.Maqs.Email.CSharp",         
   "groupIdentity":"CognizantSoftvision.Maqs.Email.Sample",
-  "shortName": "Maqs.Email",
+  "shortName": "MaqsEmail",
   "tags": {
     "language": "C#",
     "type":"project"

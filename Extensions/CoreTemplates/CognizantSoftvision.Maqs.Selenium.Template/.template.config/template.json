@@ -5,7 +5,7 @@
   "name": "CognizantSoftvision MAQS Selenium template",
   "identity": "CognizantSoftvision.Maqs.Selenium.CSharp",         
   "groupIdentity":"CognizantSoftvision.Maqs.Selenium.Sample",
-  "shortName": "Maqs.Selenium",
+  "shortName": "MaqsSelenium",
   "tags": {
     "language": "C#",
     "type":"project"

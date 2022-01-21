@@ -5,7 +5,7 @@
   "name": "CognizantSoftvision MAQS Appium template",
   "identity": "CognizantSoftvision.Maqs.Appium.CSharp",         
   "groupIdentity":"CognizantSoftvision.Maqs.Appium.Sample",
-  "shortName": "Maqs.Appium",
+  "shortName": "MaqsAppium",
   "tags": {
     "language": "C#",
     "type":"project"

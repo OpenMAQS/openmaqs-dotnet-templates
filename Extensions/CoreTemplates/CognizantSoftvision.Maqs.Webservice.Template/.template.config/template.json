@@ -5,7 +5,7 @@
   "name": "CognizantSoftvision MAQS webservice template",
   "identity": "CognizantSoftvision.Maqs.Webservice.CSharp",         
   "groupIdentity":"CognizantSoftvision.Maqs.Webservice.Sample",
-  "shortName": "Maqs.Webservice",
+  "shortName": "MaqsWebservice",
   "tags": {
     "language": "C#",
     "type":"project"
