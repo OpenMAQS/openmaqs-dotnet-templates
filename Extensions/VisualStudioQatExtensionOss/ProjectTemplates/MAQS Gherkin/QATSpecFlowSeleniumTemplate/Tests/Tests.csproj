@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CognizantSoftvision.Maqs.SpecFlow" Version="7.0.6" />
+    <PackageReference Include="CognizantSoftvision.Maqs.SpecFlow" Version="8.0.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
     <PackageReference Include="SpecFlow.MsTest" Version="3.9.40" />
