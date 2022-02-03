@@ -229,7 +229,7 @@ jobs:
     name:  Deploy VSIX templates to Visual Studio Marketplace
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     needs: test
-    runs-on: windows-latest
+    runs-on: windows-2019
     environment: marketplace
     steps:
       - uses: actions/download-artifact@v2
