@@ -81,11 +81,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATWebserviceTemplate\Tests\Tests.csproj", "{B56CB921-1008-4216-82C5-634EFBB981EC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Webservice.Template\WebServiceModel\WebServiceModel.csproj", "{8B125168-E51A-45ED-A635-F07731C13665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServiceModel", "BaseContent\Maqs.Webservice.Template\WebServiceModel\WebServiceModel.csproj", "{8B125168-E51A-45ED-A635-F07731C13665}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Composite.Template\Models\Models.csproj", "{7B125168-E51A-45ED-A635-F07731C13665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "BaseContent\Maqs.Composite.Template\Models\Models.csproj", "{7B125168-E51A-45ED-A635-F07731C13665}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Selenium.Template\PageModel\PageModel.csproj", "{6B125168-E51A-45ED-A635-F07731C13665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PageModel", "BaseContent\Maqs.Selenium.Template\PageModel\PageModel.csproj", "{6B125168-E51A-45ED-A635-F07731C13665}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Webservice.Template\Tests\Tests.csproj", "{5B125168-E51A-45ED-A635-F07731C13665}"
 EndProject
@@ -95,7 +95,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Base.Template\Tests\Tests.csproj", "{2B125168-E51A-45ED-A635-F07731C13665}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Appium.Template\PageModel\PageModel.csproj", "{1B125168-E51A-45ED-A635-F07731C13665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PageModel", "BaseContent\Maqs.Appium.Template\PageModel\PageModel.csproj", "{1B125168-E51A-45ED-A635-F07731C13665}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Composite.Template\Tests\Tests.csproj", "{0B125168-E51A-45ED-A635-F07731C13665}"
 EndProject
@@ -128,8 +128,6 @@ EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATNUnitSpecFlowSeleniumTemplate", "QATNUnitSpecFlowSeleniumTemplate", "{381D7C36-7F46-475E-A692-533E9CDB522A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Gherkin\NUnit\QATNUnitSpecFlowSeleniumTemplate\Tests\Tests.csproj", "{499CFF64-CE72-4262-98DE-DD657934D99D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "BaseContent\Maqs.Composite.Template\Models\Models.csproj", "{5B641F5F-8147-4447-9C43-BF71DDCB0133}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -205,6 +203,44 @@ Global
 		{AB125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BB125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		
+		
+		{8B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9B125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
@@ -256,10 +292,6 @@ Global
 		{499CFF64-CE72-4262-98DE-DD657934D99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{499CFF64-CE72-4262-98DE-DD657934D99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{499CFF64-CE72-4262-98DE-DD657934D99D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B641F5F-8147-4447-9C43-BF71DDCB0133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B641F5F-8147-4447-9C43-BF71DDCB0133}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B641F5F-8147-4447-9C43-BF71DDCB0133}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B641F5F-8147-4447-9C43-BF71DDCB0133}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
