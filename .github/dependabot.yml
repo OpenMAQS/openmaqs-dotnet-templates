@@ -1,7 +1,18 @@
 version: 2
 updates:
 - package-ecosystem: nuget
-  directory: "Extensions/**"
+  directory: "Extensions"
+  schedule:
+    interval: daily
+    time: "11:00"
+  open-pull-requests-limit: 99
+  target-branch: main
+  labels:
+  - dependencies
+  - dependabot
+  
+- package-ecosystem: nuget
+  directory: "Extensions/BaseContent"
   schedule:
     interval: daily
     time: "11:00"
