@@ -1,0 +1,149 @@
+<!-- saved from url=(0014)about:internet -->
+<html style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="./" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.1/jquery-ui.min.js"></script>
+    <!-- scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automation - Magenic Automation Test Site</title>
+    <!--
+    <link href="../Images/css" rel="stylesheet">-->
+
+    <style>
+        @media screen and (min-width: 831px) {
+            ul.nav li.dropdown:hover > ul.dropdown-menu {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li id="homeButton"><a href="./index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Automation<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li id="AutomationButton"><a href="./index.html">Page Elements</a></li>
+                            <li id="iFrameButton"><a href="./iFrame.html">iFrame</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" id="TrainingDropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li id="iFrameButton"><a href="../Training1/LoginPage.html">Training Page 1</a></li>
+                            <li id="iFrameButton"><a href="../Training2/LoginPage.html">Training Page 2</a></li>
+                            <li id="iFrameButton"><a href="../Training3/LoginPage.html">Training Page 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <h2>Async Page</h2>
+        <style>
+            div.roundedcorners {
+                border-radius: 25px;
+                border: 2px solid #8AC007;
+                padding: 20px;
+                width: 200px;
+                height: 150px;
+            }
+        </style>
+        <script>
+            function asyncUpdate() {
+                $("#AsyncContent").hide();
+                var lingerTime = (Math.floor(Math.random() * (10 - 1 + 1)) + 1) * 1000;
+                var myVar = setInterval(function () { myTimer() }, lingerTime);
+
+                function myTimer() {
+                    var x = document.getElementById("Selector");
+                    var option = document.createElement("option");
+                    option.text = "First";
+                    x.add(option);
+                    option = document.createElement("option");
+                    option.text = "Second";
+                    x.add(option);
+                    option = document.createElement("option");
+                    option.text = "Third";
+                    x.add(option);
+                    $("#AsyncContent").show();
+                    document.getElementById('Label').innerHTML = 'Options';
+                    $("#LoadingLabel").hide();
+                    clearInterval(myVar);
+                }
+            }
+
+
+
+            $(document).ready(function () {
+
+                $("#loading-div-text").hide();
+                var lingerTime = (Math.floor(Math.random() * (10 - 1 + 1)) + 1) * 1000;
+                var myVar = setInterval(function () { myOtherTimer() }, lingerTime);
+
+                function myOtherTimer() {
+
+                    $("#loading-div").hide();
+                    $("#loading-div-text").show();
+
+                    clearInterval(myVar);
+                }
+            });
+
+
+
+        </script>
+
+        <label id="LoadingLabel" style="display: none;">Loading...</label>
+        <div id="AsyncContent" style="display: block;">
+            <label id="Label">Options</label><br>
+            <select id="Selector"><option>First</option><option>Second</option><option>Third</option></select>
+        </div>
+        <br>
+        <div class="roundedcorners">
+            <div id="loading-div" class="ui-corner-all" style="display: block;">
+                <img id="LoadingIconImage" src="../Images/loading.gif" alt="Loading.." height="50" style="display:block;margin:auto;">
+            </div>
+            <div id="loading-div-text" style="display: none;">
+                <p>Loaded</p>
+            </div>
+        </div>
+        <div>
+
+        </div>
+
+
+
+
+<hr>
+<footer>
+    <p>
+        ©
+        <script type="text/javascript">document.write(new Date().getFullYear());</script> - Softvision
+    </p>
+</footer>
+    </div>
+</body>
+</html>
