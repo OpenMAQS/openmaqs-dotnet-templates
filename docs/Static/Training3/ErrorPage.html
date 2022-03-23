@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" type="text/css" href="/DocPOC/Static/Training.css">
+    <link rel="stylesheet" type="text/css" href="../Training.css">
 </head>
 <body onload="maybeFail()">
     <div class="jumbotron" style="background-color: rgb(238, 238, 238);">
-        <img style="display:block; margin:auto; " src="/DocPOC/Static/Images/Softvision.png">
+        <img style="display:block; margin:auto; " src="../Images/Softvision.png">
         <h2 class="text-center">Practice Site 3</h2>
     </div>
     <table style="width: 100%;" class="Nav">
@@ -30,15 +30,15 @@
             </td>
         </tr>
     </table>
-	 <p id="NoError" style="font-size: x-large; font-weight: bold">No error this time</p>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+    <p id="NoError" style="font-size: x-large; font-weight: bold">No error this time</p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
     </script>
-     <script>
-         function maybeFail() {
-             if ((Math.floor(Math.random() * (10 - 1 + 1)) + 1) > 6) {
-                 location.href = '500Error.html';
-             }
-         };
+    <script>
+        function maybeFail() {
+            if ((Math.floor(Math.random() * (10 - 1 + 1)) + 1) > 6) {
+                location.href = '500Error.html';
+            }
+        };
     </script>
     <script src="NavBar.js">
     </script>
