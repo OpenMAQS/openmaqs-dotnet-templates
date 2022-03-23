@@ -25,7 +25,7 @@
         }
     </style>
 </head>
-<body>
+<body onload="asyncUpdate()">
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -94,8 +94,6 @@
                 }
             }
 
-
-
             $(document).ready(function () {
 
                 $("#loading-div-text").hide();
@@ -110,13 +108,10 @@
                     clearInterval(myVar);
                 }
             });
-
-
-
         </script>
 
-        <label id="LoadingLabel" style="display: none;">Loading...</label>
-        <div id="AsyncContent" style="display: block;">
+        <label id="LoadingLabel">Loading...</label>
+        <div id="AsyncContent" style="display: none;">
             <label id="Label">Options</label><br>
             <select id="Selector"><option>First</option><option>Second</option><option>Third</option></select>
         </div>
@@ -132,9 +127,6 @@
         <div>
 
         </div>
-
-
-
 
         <hr>
         <footer>
