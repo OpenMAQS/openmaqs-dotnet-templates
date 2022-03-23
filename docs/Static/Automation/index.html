@@ -63,6 +63,10 @@
             function dblClicked() {
                 document.getElementById("dblClicked").innerHTML = "Yes";
             }
+            function submitMe() {
+                document.getElementById('submitVal').innerHTML =
+                    document.getElementById("submitMe").value;
+            }
             function allowDrop(ev) {
                 ev.preventDefault();
             }
@@ -300,12 +304,8 @@
                 <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
                 </div>
             </div>
-
-
             <br>
             <br>
-
-
             <div id="html4">
                 <p id="html4Text" style="width: 100%;font-weight: bold">HTML 4</p>
                 <div id="draggable" class="ui-widget-content ui-draggable ui-draggable-handle" style="position: relative;">
@@ -322,6 +322,16 @@
             <br>
             <label ondblclick="dblClicked()">Double Clicked</label>
             <p id="dblClicked">No</p>
+            <br>
+            <br>
+            <form>
+                <label>Enter Text</label><br>
+                <input type="text" name="message" id="submitMe">
+            </form>
+            <input type="submit" id="submitButton" value="Submit Text" onclick="submitMe();">
+            <br>
+            <label>Submitted Text</label>
+            <p id='submitVal'>NA</p>
             <br>
             <br>
             <label>Date Picker</label>
