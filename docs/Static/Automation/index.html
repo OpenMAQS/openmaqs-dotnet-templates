@@ -61,6 +61,9 @@
     </div>
     <div class="container body-content">
         <script>
+            function dblClicked() {
+                  document.getElementById("dblClicked").innerHTML = "Yes";
+            }
             function allowDrop(ev) {
                 ev.preventDefault();
             }
@@ -315,14 +318,17 @@
                     <p>Drop here</p>
                 </div>
             </div>
-
+            <br>
+            <br>
+            <label ondblclick="dblClicked()">Double Clicked</label>
+			<p id="dblClicked">No</p>
             <br>
             <br>
             <label>Date Picker</label>
             <br>
 
             Date:
-            <div class='input-group date' id='datetimepicker1'>
+            <div class='input-group date' id='datepicker'>
                 <input type='text' class="form-control" />
                 <span class="input-group-addon">
                     <span class="glyphicon glyphicon-calendar"></span>
@@ -333,7 +339,7 @@
 
             <script type="text/javascript">
                 $(function () {
-                    $('#datetimepicker1').datepicker();
+                    $('#datepicker').datepicker();
                 });
             </script>
 
