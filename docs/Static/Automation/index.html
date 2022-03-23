@@ -1,5 +1,4 @@
-<!-- saved from url=(0014)about:internet -->
-<html style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="./" rel="stylesheet">
@@ -62,7 +61,7 @@
     <div class="container body-content">
         <script>
             function dblClicked() {
-                  document.getElementById("dblClicked").innerHTML = "Yes";
+                document.getElementById("dblClicked").innerHTML = "Yes";
             }
             function allowDrop(ev) {
                 ev.preventDefault();
@@ -231,13 +230,14 @@
         </style>
         <br>
         <br>
-        <h2>Elements to be automated</h2>
-        <ul style="list-style-type:none;padding:0px;margin:0px;">
-            <li id="ErrorPageLink"><a href="./notError.html">500 Error page</a></li>
-            <li id="AsyncPageLink"><a href="./async.html">Async page</a></li>
-        </ul>
-
         <div id="ItemsToAutomate">
+            <h2>Elements to be automated</h2>
+            <ul style="list-style-type:none;padding:0px;margin:0px;">
+                <li id="ErrorPageLink"><a href="./notError.html">500 Error page</a></li>
+                <li id="AsyncPageLink"><a href="./async.html">Async page</a></li>
+            </ul>
+
+
             <br>
             <button id="showDialog1" onclick="ShowProgressAnimation();">Show dialog</button>
             <br>
@@ -321,7 +321,7 @@
             <br>
             <br>
             <label ondblclick="dblClicked()">Double Clicked</label>
-			<p id="dblClicked">No</p>
+            <p id="dblClicked">No</p>
             <br>
             <br>
             <label>Date Picker</label>
@@ -343,228 +343,220 @@
                 });
             </script>
 
-        </div>
-
-
-
-
-        <p>
-            <label for="amount">Slider Number:</label>
-            <input type="text" id="sliderNumber" readonly="" style="border:0; color:#f6931f; font-weight:bold;">
-        </p>
-        <div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 11.1111%;"></span></div>
-
-
-
-        <br>
-        <br>
-
-        <div id="Checkboxes">
-            <input id="Checkbox1" type="checkbox" name="Checkbox1" value="Checkbox1">Checkbox 1<br>
-            <input id="Checkbox2" type="checkbox" name="Checkbox2" value="Checkbox2">Checkbox 2 <br>
-        </div>
-        <br>
-        <div class="radioButtons">
-            <form>
-                <input id="MaleRadio" type="radio" name="sex" value="male" checked="">Male
-                <br>
-                <input id="FemaleRadio" type="radio" name="sex" value="female">Female
-            </form>
-        </div>
-        <div id="Dropdown" class="control-group position">
-            <p><strong><label>Names</label></strong></p>
-            <div class="controls">
-                <select id="namesDropdown" class="input-xlarge" name="names">
-                    <option value="1">Joe</option>
-                    <option value="two">Jack</option>
-                    <option value="3">Jill</option>
-                    <option value="four">Rose</option>
-                    <option value="5">John</option>
-                    <option value="six">Emily</option>
-                    <option value="7">Ashley</option>
-                </select>
-            </div>
-        </div>
-        <br>
-        <div id="TextFields" class="control-group">
-            <p><strong>First name:</strong> <input name="firstname" type="text"></p>
-            <p><strong>Last name:</strong> <input name="lastname" type="text"></p>
-        </div>
-
-        <div id="disabledField">
-            <input name="disabledfield" type="text" value="Disabled" disabled="">
-        </div>
-        <br>
-        <div id="UploadFile" class="control-group">
-            <p><strong><label class="control-label" for="photo">Upload Image</label></strong></p>
-            <p><input id="photo" class="input-file" name="photo" type="file"></p>
-        </div>
-        <div id="Dropdown" class="control-group">
-            <p><strong><label>Computer Parts</label></strong></p>
-            <div class="controls">
-                <select id="computerParts" class="input-xlarge" multiple="multiple" name="computerParts">
-                    <option value="one">Motherboard</option>
-                    <option value="two">Power Supply</option>
-                    <option value="three">Hard Drive</option>
-                    <option value="four">Monitor</option>
-                    <option value="five">Mouse</option>
-                    <option value="six">Keyboard</option>
-                </select>
-            </div>
-        </div>
-
-        <div id="rightclicktestbox" class="control-group">
+            <p>
+                <label for="amount">Slider Number:</label>
+                <input type="text" id="sliderNumber" readonly="" style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            <div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 11.1111%;"></span></div>
             <br>
-            <p><strong>Context Menu Box</strong></p>
-            <p>Right-click inside green box to show context menu</p>
-            <div id="rightclickmenu"><b id="RightClickSaveText">Save</b></div>
-            <div id="rightclickspace">
+            <br>
+
+            <div id="Checkboxes">
+                <input id="Checkbox1" type="checkbox" name="Checkbox1" value="Checkbox1">Checkbox 1<br>
+                <input id="Checkbox2" type="checkbox" name="Checkbox2" value="Checkbox2">Checkbox 2 <br>
             </div>
+            <br>
+            <div class="radioButtons">
+                <form>
+                    <input id="MaleRadio" type="radio" name="sex" value="male" checked="">Male
+                    <br>
+                    <input id="FemaleRadio" type="radio" name="sex" value="female">Female
+                </form>
+            </div>
+            <div id="Dropdown" class="control-group position">
+                <p><strong><label>Names</label></strong></p>
+                <div class="controls">
+                    <select id="namesDropdown" class="input-xlarge" name="names">
+                        <option value="1">Joe</option>
+                        <option value="two">Jack</option>
+                        <option value="3">Jill</option>
+                        <option value="four">Rose</option>
+                        <option value="5">John</option>
+                        <option value="six">Emily</option>
+                        <option value="7">Ashley</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div id="TextFields" class="control-group">
+                <p><strong>First name:</strong> <input name="firstname" type="text"></p>
+                <p><strong>Last name:</strong> <input name="lastname" type="text"></p>
+            </div>
+
+            <div id="disabledField">
+                <input name="disabledfield" type="text" value="Disabled" disabled="">
+            </div>
+            <br>
+            <div id="UploadFile" class="control-group">
+                <p><strong><label class="control-label" for="photo">Upload Image</label></strong></p>
+                <p><input id="photo" class="input-file" name="photo" type="file"></p>
+            </div>
+            <div id="Dropdown" class="control-group">
+                <p><strong><label>Computer Parts</label></strong></p>
+                <div class="controls">
+                    <select id="computerParts" class="input-xlarge" multiple="multiple" name="computerParts">
+                        <option value="one">Motherboard</option>
+                        <option value="two">Power Supply</option>
+                        <option value="three">Hard Drive</option>
+                        <option value="four">Monitor</option>
+                        <option value="five">Mouse</option>
+                        <option value="six">Keyboard</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="rightclicktestbox" class="control-group">
+                <br>
+                <p><strong>Context Menu Box</strong></p>
+                <p>Right-click inside green box to show context menu</p>
+                <div id="rightclickmenu"><b id="RightClickSaveText">Save</b></div>
+                <div id="rightclickspace">
+                </div>
+            </div>
+
+            <table id="FoodTable" class="tsc_table_s13" style="width: 100%;" summary="Table 1" border="1">
+                <caption><strong>Clothing Table</strong></caption>
+                <thead>
+                    <tr>
+                        <th style="text-align: justify;" scope="col">Number of items</th>
+                        <th scope="col">T-Shirts</th>
+                        <th scope="col">Sweaters</th>
+                        <th scope="col">Shorts</th>
+                        <th scope="col">Jeans</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Matt</th>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="odd">
+                        <th scope="row">Cole</th>
+                        <td>12</td>
+                        <td>12</td>
+                        <td>2</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Troy</th>
+                        <td>0</td>
+                        <td>21</td>
+                        <td>6</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="odd">
+                        <th scope="row">Chance</th>
+                        <td>2</td>
+                        <td>0</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row">Total of items</th>
+                        <td>15</td>
+                        <td>35</td>
+                        <td>12</td>
+                        <td>15</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+
+            <table id="FlowerTable" class="tsc_table_s13" style="width: 100%;" summary="Sample Table" border="1">
+                <caption><strong>Flower Table</strong></caption>
+                <thead>
+                    <tr>
+                        <th style="text-align: justify;" scope="col">Flowers</th>
+                        <th scope="col">Height</th>
+                        <th scope="col">Width</th>
+                        <th scope="col">Date Received</th>
+                        <th scope="col">Color</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Roses</th>
+                        <td>10 in</td>
+                        <td>12 in</td>
+                        <td>10/12/2015</td>
+                        <td>Red</td>
+                        <td><a href="#">Buy</a></td>
+                    </tr>
+                    <tr class="odd">
+                        <th scope="row">Daisies</th>
+                        <td>15 ft</td>
+                        <td>6 ft</td>
+                        <td>9/2/15</td>
+                        <td>Yellow</td>
+                        <td><a href="#">Buy</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tulips</th>
+                        <td>5 in</td>
+                        <td>5 in</td>
+                        <td>10/02/2015</td>
+                        <td>Purple</td>
+                        <td><a href="#">Buy</a></td>
+                    </tr>
+                    <tr class="odd">
+                        <th scope="row">Roses</th>
+                        <td>10 in</td>
+                        <td>12 in</td>
+                        <td>10/12/2015</td>
+                        <td>Red</td>
+                        <td><a href="#">Buy</a></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
-        <table id="FoodTable" class="tsc_table_s13" style="width: 100%;" summary="Table 1" border="1">
-            <caption><strong>Clothing Table</strong></caption>
-            <thead>
-                <tr>
-                    <th style="text-align: justify;" scope="col">Number of items</th>
-                    <th scope="col">T-Shirts</th>
-                    <th scope="col">Sweaters</th>
-                    <th scope="col">Shorts</th>
-                    <th scope="col">Jeans</th>
+        <script type="text/javascript">
 
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Matt</th>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>5</td>
-                </tr>
-                <tr class="odd">
-                    <th scope="row">Cole</th>
-                    <td>12</td>
-                    <td>12</td>
-                    <td>2</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <th scope="row">Troy</th>
-                    <td>0</td>
-                    <td>21</td>
-                    <td>6</td>
-                    <td>5</td>
-                </tr>
-                <tr class="odd">
-                    <th scope="row">Chance</th>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>4</td>
-                    <td>5</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th scope="row">Total of items</th>
-                    <td>15</td>
-                    <td>35</td>
-                    <td>12</td>
-                    <td>15</td>
-                </tr>
-            </tfoot>
-        </table>
-
-
-        <table id="FlowerTable" class="tsc_table_s13" style="width: 100%;" summary="Sample Table" border="1">
-            <caption><strong>Flower Table</strong></caption>
-            <thead>
-                <tr>
-                    <th style="text-align: justify;" scope="col">Flowers</th>
-                    <th scope="col">Height</th>
-                    <th scope="col">Width</th>
-                    <th scope="col">Date Received</th>
-                    <th scope="col">Color</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Roses</th>
-                    <td>10 in</td>
-                    <td>12 in</td>
-                    <td>10/12/2015</td>
-                    <td>Red</td>
-                    <td><a href="#">Buy</a></td>
-                </tr>
-                <tr class="odd">
-                    <th scope="row">Daisies</th>
-                    <td>15 ft</td>
-                    <td>6 ft</td>
-                    <td>9/2/15</td>
-                    <td>Yellow</td>
-                    <td><a href="#">Buy</a></td>
-                </tr>
-                <tr>
-                    <th scope="row">Tulips</th>
-                    <td>5 in</td>
-                    <td>5 in</td>
-                    <td>10/02/2015</td>
-                    <td>Purple</td>
-                    <td><a href="#">Buy</a></td>
-                </tr>
-                <tr class="odd">
-                    <th scope="row">Roses</th>
-                    <td>10 in</td>
-                    <td>12 in</td>
-                    <td>10/12/2015</td>
-                    <td>Red</td>
-                    <td><a href="#">Buy</a></td>
-                </tr>
-            </tbody>
-        </table>
-
-
-    <script type="text/javascript">
-
-        $(function () {
-            $("#draggable").draggable();
-            $("#droppable").droppable({
-                drop: function (event, ui) {
-                    $(this)
-                        .find("p")
-                        .html("<div id=\"DROPPED\">Dropped</div>");
-                }
-            });
-            $("#droppable").droppable({
-                out: function (event, ui) {
-                    $(this)
-                        .find("p")
-                        .html("<div id=\"OUT\">Out</div>");
-                }
-            });
-            $("#droppable2").droppable({
-                drop: function (event, ui) {
-                    $(this)
-                        .find("p")
-                        .html("<div id=\"DROPPED\">Dropped</div>");
-                }
-            });
-            $("#droppable2").droppable({
-                out: function (event, ui) {
-                    $(this)
-                        .find("p")
-                        .html("<div id=\"OUT\">Out</div>");
-                }
-            });
-        })
-    </script>
-    <hr>
-    <footer>
-        <p>
-            ©
-            <script type="text/javascript">document.write(new Date().getFullYear());</script> - Softvision
-        </p>
-    </footer>
+            $(function () {
+                $("#draggable").draggable();
+                $("#droppable").droppable({
+                    drop: function (event, ui) {
+                        $(this)
+                            .find("p")
+                            .html("<div id=\"DROPPED\">Dropped</div>");
+                    }
+                });
+                $("#droppable").droppable({
+                    out: function (event, ui) {
+                        $(this)
+                            .find("p")
+                            .html("<div id=\"OUT\">Out</div>");
+                    }
+                });
+                $("#droppable2").droppable({
+                    drop: function (event, ui) {
+                        $(this)
+                            .find("p")
+                            .html("<div id=\"DROPPED\">Dropped</div>");
+                    }
+                });
+                $("#droppable2").droppable({
+                    out: function (event, ui) {
+                        $(this)
+                            .find("p")
+                            .html("<div id=\"OUT\">Out</div>");
+                    }
+                });
+            })
+        </script>
+        <hr>
+        <footer>
+            <p>
+                ©
+                <script type="text/javascript">document.write(new Date().getFullYear());</script> - Softvision
+            </p>
+        </footer>
     </div>
 </body>
 </html>
