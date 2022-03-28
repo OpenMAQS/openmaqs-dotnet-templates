@@ -63,10 +63,6 @@
             function dblClicked() {
                 document.getElementById("dblClicked").innerHTML = "Yes";
             }
-            function submitMe() {
-                document.getElementById('submitVal').innerHTML =
-                    document.getElementById("submitMe").value;
-            }
             function allowDrop(ev) {
                 ev.preventDefault();
             }
@@ -79,6 +75,9 @@
                 ev.target.appendChild(document.getElementById(data));
             }
             $(document).ready(function () {
+				const url = new URL(window.location.href);
+				document.getElementById("submitVal").innerHTML = url.searchParams.get('message');
+			
                 $("#disabledField").children().prop('disabled', true);
             })
             $(document).ready(function () {
@@ -241,7 +240,6 @@
                 <li id="AsyncPageLink"><a href="./async.html">Async page</a></li>
             </ul>
 
-
             <br>
             <button id="showDialog1" onclick="ShowProgressAnimation();">Show dialog</button>
             <br>
@@ -258,7 +256,6 @@
             <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
                 Bootstrap Modal
             </button>
-
 
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog" role="document">
@@ -277,8 +274,6 @@
                     </div>
                 </div>
             </div>
-
-
 
             <div id="loading-div" class="ui-corner-all" style="opacity: 1; display: none;">
                 <img id="LoadingImage" src="../Images/loading.gif" alt="Loading.." height="20">
@@ -327,8 +322,8 @@
             <form>
                 <label>Enter Text</label><br>
                 <input type="text" name="message" id="submitMe">
+				<input type="submit" id="submitButton" value="Submit Text">
             </form>
-            <input type="submit" id="submitButton" value="Submit Text" onclick="submitMe();">
             <br>
             <label>Submitted Text</label>
             <p id='submitVal'>NA</p>
