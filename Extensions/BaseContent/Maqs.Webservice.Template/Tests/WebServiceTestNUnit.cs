@@ -1,5 +1,7 @@
 ﻿using CognizantSoftvision.Maqs.BaseWebServiceTest;
 using NUnit.Framework;
+using System;
+using System.Net.Http;
 using WebServiceModel;
 
 namespace Tests
@@ -11,14 +13,23 @@ namespace Tests
     public class WebServiceTestNUnit : BaseWebServiceTest
     {
         /// <summary>
+        /// Get a simple resouce
+        /// </summary>
+        [Test]
+        public void GetResource()
+        {
+            string result = this.WebServiceDriver.Get("maqs-dotnet-templates/README.md", "text/markdown");
+
+            Assert.IsTrue(result.Contains("MAQS"), "Expected readme to contain the name 'MAQS'");
+        }
+
+        /// <summary>
         /// Get single product as XML
         /// </summary>
         [Test]
         public void GetXmlDeserializedNUnit()
         {
-            ProductXml result = this.WebServiceDriver.Get<ProductXml>("/api/XML_JSON/GetProduct/1", "application/xml", false);
-
-            Assert.AreEqual(1, result.Id, "Expected to get product 1");
+            Assert.Throws<InvalidOperationException>(() => this.WebServiceDriver.Get<ProductXml>("/api/XML_JSON/GetProduct/1", "application/xml", false));
         }
 
         /// <summary>
@@ -27,9 +38,7 @@ namespace Tests
         [Test]
         public void GetJsonDeserializedNUnit()
         {
-            ProductJson result = this.WebServiceDriver.Get<ProductJson>("/api/XML_JSON/GetProduct/1", "application/json", false);
-
-            Assert.AreEqual(1, result.Id, "Expected to get product 1");
+            Assert.Throws<HttpRequestException>(() => this.WebServiceDriver.Get<ProductJson>("/api/XML_JSON/GetProduct/1", "application/json", true));
         }
     }
 }
