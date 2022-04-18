@@ -3,7 +3,7 @@ using CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 
-namespace PageModel
+namespace Models.WebPage.Selenium
 {
     /// <summary>
     /// Page object for the Automation page

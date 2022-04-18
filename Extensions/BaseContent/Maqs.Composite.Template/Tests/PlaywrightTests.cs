@@ -1,38 +1,21 @@
-﻿using CognizantSoftvision.Maqs.BaseDatabaseTest;
-using CognizantSoftvision.Maqs.BaseSeleniumTest;
+﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
 using CognizantSoftvision.Maqs.BaseWebServiceTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Models.WebPage.Selenium;
+using Models.WebPage.Playwright;
 using System;
-using System.Data;
-using System.Linq;
 
 namespace Tests
 {
     /// <summary>
-    /// Composite Selenium test class
+    /// PlaywrightTest test class with VS unit
     /// </summary>
     [TestClass]
-    public class SeleniumTests : BaseSeleniumTest
+    public class PlaywrightTestsVSUnit : BasePlaywrightTest
     {
-        /// <summary>
-        /// Do database setup for test run
+		/// <summary>
+        /// Do post test run web service cleanup 
         /// </summary>
-        // [ClassInitialize] - Disabled because this step will fail as the template does not include access to a test database
-        public static void TestSetup(TestContext context)
-        {
-            // Do database setup
-            using (DatabaseDriver wrapper = new DatabaseDriver(DatabaseConfig.GetProviderTypeString(), DatabaseConfig.GetConnectionString()))
-            {
-                var result = wrapper.Query("getStateAbbrevMatch", new { StateAbbreviation = "MN" }, commandType: CommandType.StoredProcedure);
-                Assert.AreEqual(1, result.Count(), "Expected 1 state abbreviation to be returned.");
-            }
-        }
-
-        /// <summary>
-        /// Do post test run web service cleanup
-        /// </summary>
-        [ClassCleanup]
+        // [ClassCleanup] - TODO: Remove or update per your testing needs
         public static void TestCleanup()
         {
             // Do web service post run cleanup
@@ -40,9 +23,9 @@ namespace Tests
             string result = client.Delete("/api/String/Delete/1", "text/plain", true);
             Assert.AreEqual(string.Empty, result);
         }
-
+		
         /// <summary>
-        /// Open page test
+        /// Composite Playwright test class
         /// </summary>
         [TestMethod]
         public void OpenLoginPageTest()
@@ -79,3 +62,4 @@ namespace Tests
         }
     }
 }
+
