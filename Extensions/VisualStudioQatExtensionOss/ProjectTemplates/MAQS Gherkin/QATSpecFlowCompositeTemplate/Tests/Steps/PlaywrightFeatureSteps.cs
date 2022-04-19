@@ -1,24 +1,24 @@
 ﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
 using CognizantSoftvision.Maqs.Utilities.Helper;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Models.WebPage.Selenium;
+using Models.WebPage.Playwright;
 using System;
 using TechTalk.SpecFlow;
 
 namespace $safeprojectname$.Steps
 {
     /// <summary>
-    /// Steps class for SeleniumFeatureSteps
-    /// To utilize MAQS features for the steps in this class, make sure at add a 'MAQS_Selenium' tag to the feature file(s)
+    /// Steps class for PlaywrightFeatureSteps
+    /// To utilize MAQS features for the steps in this class, make sure at add a 'MAQS_Playwright' tag to the feature file(s)
     /// </summary>
     [Binding]
-    public class SeleniumFeatureSteps : BaseSeleniumTestSteps
+    public class PlaywrightFeatureSteps : BasePlaywrightTestSteps
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="SeleniumFeatureSteps"/> class.
+        /// Initializes a new instance of the <see cref="PlaywrightFeatureSteps"/> class.
         /// </summary>
         /// <param name="context">The scenario context.</param>
-        protected SeleniumFeatureSteps(ScenarioContext context) : base(context)
+        protected PlaywrightFeatureSteps(ScenarioContext context) : base(context)
         {
         }
 

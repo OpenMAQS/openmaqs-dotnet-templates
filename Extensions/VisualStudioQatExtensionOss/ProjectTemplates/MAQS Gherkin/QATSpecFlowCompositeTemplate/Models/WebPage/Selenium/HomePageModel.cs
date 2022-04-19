@@ -1,25 +1,19 @@
 ﻿using CognizantSoftvision.Maqs.BaseSeleniumTest;
 using CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions;
-using CognizantSoftvision.Maqs.Utilities.Helper;
 using OpenQA.Selenium;
 
-namespace Models.WebPage
+namespace Models.WebPage.Selenium
 {
     /// <summary>
-    /// Page object for the $safeitemname$ page
+    /// Page object for the Automation page
     /// </summary>
-    public class $safeitemname$ : BaseSeleniumPageModel
+    public class HomePageModel : BaseSeleniumPageModel
     {
         /// <summary>
-        /// The page url
-        /// </summary>
-        private static readonly string PageUrl = SeleniumConfig.GetWebSiteBase() + "Static/Training3/HomePage.html";
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="$safeitemname$" /> class.
+        /// Initializes a new instance of the <see cref="HomePageModel" /> class.
         /// </summary>
         /// <param name="testObject">The selenium test object</param>
-        public $safeitemname$(ISeleniumTestObject testObject) : base(testObject)
+        public HomePageModel(ISeleniumTestObject testObject) : base(testObject)
         {
         }
 
