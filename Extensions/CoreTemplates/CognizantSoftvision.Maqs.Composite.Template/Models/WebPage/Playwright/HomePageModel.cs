@@ -1,6 +1,6 @@
 ﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
 
-namespace PageModel
+namespace Models.WebPage.Playwright
 {
     /// <summary>
     /// Playwright page model class for testing

@@ -2,7 +2,7 @@ using CognizantSoftvision.Maqs.BaseDatabaseTest;
 using CognizantSoftvision.Maqs.BaseSeleniumTest;
 using CognizantSoftvision.Maqs.BaseWebServiceTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Models;
+using Models.WebPage.Selenium;
 using System;
 using System.Data;
 using System.Linq;
@@ -32,7 +32,7 @@ namespace $safeprojectname$
         /// <summary>
         /// Do post test run web service cleanup
         /// </summary>
-        [ClassCleanup]
+        // [ClassCleanup] - Disabled because this step will fail against the current base service
         public static void TestCleanup()
         {
             // Do web service post run cleanup

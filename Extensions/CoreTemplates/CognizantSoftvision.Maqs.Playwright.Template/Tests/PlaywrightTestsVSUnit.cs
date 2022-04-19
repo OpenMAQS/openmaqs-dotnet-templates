@@ -1,8 +1,8 @@
-using CognizantSoftvision.Maqs.BasePlaywrightTest;
+﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PageModel;
 
-namespace $safeprojectname$
+namespace Tests
 {
     /// <summary>
     /// PlaywrightTest test class with VS unit

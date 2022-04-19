@@ -1,8 +1,8 @@
-﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
+using CognizantSoftvision.Maqs.BasePlaywrightTest;
 using NUnit.Framework;
 using PageModel;
 
-namespace Tests
+namespace $safeprojectname$
 {
     /// <summary>
     /// PlaywrightTest test class with NUnit

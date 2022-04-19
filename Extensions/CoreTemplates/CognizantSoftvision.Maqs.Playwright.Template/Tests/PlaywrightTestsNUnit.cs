@@ -1,20 +1,20 @@
-using CognizantSoftvision.Maqs.BasePlaywrightTest;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
+using NUnit.Framework;
 using PageModel;
 
-namespace $safeprojectname$
+namespace Tests
 {
     /// <summary>
-    /// PlaywrightTest test class with VS unit
+    /// PlaywrightTest test class with NUnit
     /// </summary>
-    [TestClass]
-    public class PlaywrightTestsVSUnit : BasePlaywrightTest
+    [TestFixture]
+    public class PlaywrightTestsNUnit : BasePlaywrightTest
     {
         /// <summary>
         /// Open page test
         /// </summary>
-        [TestMethod]
-        public void OpenLoginPageTest()
+        [Test]
+        public void OpenLoginPageTestNUnit()
         {
             LoginPageModel page = new LoginPageModel(this.TestObject);
             page.OpenLoginPage();
@@ -23,8 +23,8 @@ namespace $safeprojectname$
         /// <summary>
         /// Enter credentials test
         /// </summary>
-        [TestMethod]
-        public void EnterValidCredentialsTest()
+        [Test]
+        public void EnterValidCredentialsTestNUnit()
         {
             string username = "Ted";
             string password = "123";
@@ -37,8 +37,8 @@ namespace $safeprojectname$
         /// <summary>
         /// Enter credentials test
         /// </summary>
-        [TestMethod]
-        public void EnterInvalidCredentials()
+        [Test]
+        public void EnterInvalidCredentialsNUnit()
         {
             string username = "NOT";
             string password = "Valid";
