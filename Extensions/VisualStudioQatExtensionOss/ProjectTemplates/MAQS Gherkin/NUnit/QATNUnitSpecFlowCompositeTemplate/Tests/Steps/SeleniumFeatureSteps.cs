@@ -1,7 +1,7 @@
 ﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
 using CognizantSoftvision.Maqs.Utilities.Helper;
 using NUnit.Framework;
-using Models.WebPage;
+using Models.WebPage.Selenium;
 using System;
 using TechTalk.SpecFlow;
 
