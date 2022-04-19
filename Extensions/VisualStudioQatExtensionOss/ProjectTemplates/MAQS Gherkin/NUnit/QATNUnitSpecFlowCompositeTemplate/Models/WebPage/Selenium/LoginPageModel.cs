@@ -3,23 +3,23 @@ using CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 
-namespace $safeprojectname$
+namespace Models.WebPage.Selenium
 {
     /// <summary>
-    /// Page object for the $safeitemname$ page
+    /// Page object for the Automation page
     /// </summary>
-    public class $safeitemname$ : BaseSeleniumPageModel
+    public class LoginPageModel : BaseSeleniumPageModel
     {
         /// <summary>
         /// The page url
         /// </summary>
-        private static readonly string PageUrl = SeleniumConfig.GetWebSiteBase() + "Static/Training3/LoginPage.html";
+        private static string PageUrl = SeleniumConfig.GetWebSiteBase() + "Static/Training3/LoginPage.html";
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="$safeitemname$" /> class.
+        /// Initializes a new instance of the <see cref="LoginPageModel" /> class.
         /// </summary>
         /// <param name="testObject">The test object</param>
-        public $safeitemname$(ISeleniumTestObject testObject) : base(testObject)
+        public LoginPageModel(ISeleniumTestObject testObject) : base(testObject)
         {
         }
 
