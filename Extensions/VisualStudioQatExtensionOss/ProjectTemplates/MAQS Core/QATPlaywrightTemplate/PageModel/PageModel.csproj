@@ -4,26 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
-    <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PageModel\PageModel.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="appsettings.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="appsettings.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-  </ItemGroup>  
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CognizantSoftvision.Maqs.Playwight" Version="9.0.0-alpha.2" />
+  </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net471</TargetFramework>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
   <ItemGroup>
@@ -13,10 +13,10 @@
     <ProjectReference Include="..\PageModel\PageModel.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="appsettings.json" />
+    <None Remove="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="appsettings.json">
+    <EmbeddedResource Include="App.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>  

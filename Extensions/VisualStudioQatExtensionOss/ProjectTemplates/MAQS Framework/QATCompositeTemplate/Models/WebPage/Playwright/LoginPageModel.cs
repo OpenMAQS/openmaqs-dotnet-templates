@@ -1,58 +1,60 @@
-﻿using CognizantSoftvision.Maqs.BaseSeleniumTest;
-using CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions;
+﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OpenQA.Selenium;
 
-namespace Models
+namespace Models.WebPage.Playwright
 {
     /// <summary>
     /// Page object for the Automation page
     /// </summary>
-    public class LoginPageModel : BaseSeleniumPageModel
+    public class LoginPageModel : BasePlaywrightPageModel
     {
         /// <summary>
-        /// The page url
+        /// Initializes a new instance of the <see cref="LoginPageModel"/> class
         /// </summary>
-        private static string PageUrl = SeleniumConfig.GetWebSiteBase() + "Static/Training3/loginpage.html";
+        /// <param name="testObject">The base Playwright test object</param>
+        public LoginPageModel(IPlaywrightTestObject testObject)
+            : base(testObject)
+        {
+        }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="LoginPageModel" /> class.
+        /// Get page url
         /// </summary>
-        /// <param name="testObject">The test object</param>
-        public LoginPageModel(ISeleniumTestObject testObject) : base(testObject)
+        public static string Url
         {
+            get { return PlaywrightConfig.WebBase() + "Static/Training3/LoginPage.html"; }
         }
 
         /// <summary>
         /// Gets user name box
         /// </summary>
-        private LazyElement UserNameInput
+        private PlaywrightSyncElement UserNameInput
         {
-            get { return this.GetLazyElement(By.CssSelector("#name"), "User name input"); }
+            get { return new PlaywrightSyncElement(this.PageDriver, "#name"); }
         }
 
         /// <summary>
         /// Gets password box
         /// </summary>
-        private LazyElement PasswordInput
+        private PlaywrightSyncElement PasswordInput
         {
-            get { return this.GetLazyElement(By.CssSelector("#pw"), "Password input"); }
+            get { return new PlaywrightSyncElement(this.PageDriver, "#pw"); }
         }
 
         /// <summary>
         /// Gets login button
         /// </summary>
-        private LazyElement LoginButton
+        private PlaywrightSyncElement LoginButton
         {
-            get { return this.GetLazyElement(By.CssSelector("#Login"), "Login button"); }
+            get { return new PlaywrightSyncElement(this.PageDriver, "#Login"); }
         }
 
         /// <summary>
         /// Gets error message
         /// </summary>
-        private LazyElement ErrorMessage
+        private PlaywrightSyncElement ErrorMessage
         {
-            get { return this.GetLazyElement(By.CssSelector("#LoginError"), "Error message"); }
+            get { return new PlaywrightSyncElement(this.PageDriver, "#LoginError"); }
         }
 
         /// <summary>
@@ -60,7 +62,7 @@ namespace Models
         /// </summary>
         public void OpenLoginPage()
         {
-            this.TestObject.WebDriver.Navigate().GoToUrl(PageUrl);
+            this.PageDriver.Goto(Url);
             this.AssertPageLoaded();
         }
 
@@ -71,8 +73,8 @@ namespace Models
         /// <param name="password">The user password</param>
         public void EnterCredentials(string userName, string password)
         {
-            this.UserNameInput.SendKeys(userName);
-            this.PasswordInput.SendKeys(password);
+            this.UserNameInput.Type(userName);
+            this.PasswordInput.Type(password);
         }
 
         /// <summary>
@@ -99,7 +101,15 @@ namespace Models
         {
             this.EnterCredentials(userName, password);
             this.LoginButton.Click();
-            return this.ErrorMessage.Displayed;
+            return this.ErrorMessage.IsEventualyVisible();
+        }
+
+        /// <summary>
+        /// Open the page
+        /// </summary>
+        public void OpenPage()
+        {
+            this.PageDriver.Goto(Url);
         }
 
         /// <summary>
@@ -107,10 +117,7 @@ namespace Models
         /// </summary>
         public void AssertPageLoaded()
         {
-            Assert.IsTrue(
-                this.IsPageLoaded(),
-                "The web page '{0}' is not loaded",
-                PageUrl);
+            Assert.IsTrue(this.IsPageLoaded(), $"The web page '{Url}' is not loaded");
         }
 
         /// <summary>
@@ -119,8 +126,7 @@ namespace Models
         /// <returns>True if the page was loaded</returns>
         public override bool IsPageLoaded()
         {
-            return this.UserNameInput.Displayed && this.PasswordInput.Displayed && this.LoginButton.Displayed;
+            return this.UserNameInput.IsEventualyVisible() && this.PasswordInput.IsEventualyVisible() && this.LoginButton.IsEventualyVisible();
         }
     }
 }
-
