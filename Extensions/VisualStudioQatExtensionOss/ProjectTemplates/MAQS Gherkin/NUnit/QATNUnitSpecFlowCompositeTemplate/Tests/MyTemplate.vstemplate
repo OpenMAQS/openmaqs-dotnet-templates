@@ -24,6 +24,7 @@
         <ProjectItem ReplaceParameters="false" TargetFileName="DatabaseFeature.feature">DatabaseFeature.feature</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="EmailFeature.feature">EmailFeature.feature</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="GeneralFeature.feature">GeneralFeature.feature</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="PlaywrightFeature.feature">PlaywrightFeature.feature</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="SeleniumFeature.feature">SeleniumFeature.feature</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="WebServiceFeature.feature">WebServiceFeature.feature</ProjectItem>
       </Folder>
@@ -32,6 +33,7 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="DatabaseFeatureSteps.cs">DatabaseFeatureSteps.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="EmailFeatureSteps.cs">EmailFeatureSteps.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="GeneralFeatureSteps.cs">GeneralFeatureSteps.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PlaywrightFeatureSteps.cs">PlaywrightFeatureSteps.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="SeleniumFeatureSteps.cs">SeleniumFeatureSteps.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="WebServiceFeatureSteps.cs">WebServiceFeatureSteps.cs</ProjectItem>
       </Folder>
