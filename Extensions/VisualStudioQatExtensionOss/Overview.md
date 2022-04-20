@@ -19,7 +19,7 @@ The main idea behind MAQS is to **avoid reinventing the wheel**. Most automation
 MAQS is a quick start for most any automation project. MAQS provides templates, configuration files, libraries, and helper methods to reduce the time required to initiate a test project with little setup. 
 ## How to use 
 To create a new MAQS project, simply create a new solution using the MAQS templates and compile the project.  The templates included are compilable test solutions that includes a number of generic pre-written sample tests. 
-Templates for Selenium, Appium, Web Service, Database, Email, Generic and Composite (includes all the other types) tests are all included. 
+Templates for Selenium, Appium, Playwright, Web Service, Database, Email, Generic and Composite (includes all the other types) tests are all included. 
 ## Features 
 ### Drivers
 MAQS automatically setups up and cleans up Selenium, Appium, Web Service, Database, Mongo, and Email drives. These drivers provide you an interface with which to interact with the underlying system under test.  MAQS is also written in such a way that you can easily add your own driver type or use multiple driver and/or driver types within the same test.
