@@ -6,11 +6,11 @@
         <Description xml:space="preserve">MAQS (modular automation quick start) framework</Description>
         <MoreInfo>https://www.cognizantsoftvision.com/communities/qa-community/</MoreInfo>
         <License>License.txt</License>
-        <GettingStartedGuide>https://cognizantopensource.github.io/maqs-dotnet/#/MAQS_8/Introduction</GettingStartedGuide>
+        <GettingStartedGuide>https://cognizantopensource.github.io/maqs-dotnet/#/MAQS_9/Introduction</GettingStartedGuide>
         <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
         <Icon>QATTest.ico</Icon>
         <PreviewImage>QATTest.ico</PreviewImage>
-        <Tags>Automation;Selenium;Appium;Database;Web Service;Email;MAQS;NUnit;MSTest;Test Framework;Test;Testing</Tags>
+        <Tags>Automation;Selenium;Playwright;Appium;Database;Web Service;Email;MAQS;NUnit;MSTest;Test Framework;Test;Testing</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
@@ -52,7 +52,7 @@
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\MAQS\QATNUnitDatabaseTest.zip" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\MAQS\QATNUnitEmailTest.zip" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\MAQS\QATNUnitSeleniumTest.zip" />
-		<Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\MAQS\QATNUnitPlayuwrightTest.zip" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\MAQS\QATNUnitPlayuwrightTest.zip" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\MAQS\QATNUnitWebServiceTest.zip" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\MAQS\QATNUnitBaseTest.zip" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\MAQS Gherkin\AppiumFeature.zip" />
