@@ -74,10 +74,16 @@
     <Content Include="ItemTemplates\MAQS\QATNUnitSeleniumTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="ItemTemplates\MAQS\QATNUnitPlaywrightTest.zip">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="ItemTemplates\MAQS\QATNUnitWebServiceTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ItemTemplates\MAQS\QATSeleniumModel.zip">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ItemTemplates\MAQS\QATPlaywrightModel.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ItemTemplates\MAQS\QATVisualStudioAppiumTest.zip">
@@ -93,6 +99,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ItemTemplates\MAQS\QATVisualStudioSeleniumTest.zip">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ItemTemplates\MAQS\QATVisualStudioPlaywrightTest.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ItemTemplates\MAQS\QATVisualStudioWebServiceTest.zip">
@@ -129,6 +138,12 @@
     <Content Include="ItemTemplates\MAQS Gherkin\SeleniumSteps.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="ItemTemplates\MAQS Gherkin\PlaywrightFeature.zip">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ItemTemplates\MAQS Gherkin\PlaywrightSteps.zip">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="ItemTemplates\MAQS Gherkin\WebServiceFeature.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -145,6 +160,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ProjectTemplates\MAQS Framework\QATSeleniumTemplate.zip">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\MAQS Framework\QATPlaywrightTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ProjectTemplates\MAQS Framework\QATWebserviceTemplate.zip">
@@ -175,6 +193,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="ProjectTemplates\MAQS Core\QATSeleniumTemplate.zip">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\MAQS Core\QATPlaywrightTemplate.zip">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="Overview.md">
