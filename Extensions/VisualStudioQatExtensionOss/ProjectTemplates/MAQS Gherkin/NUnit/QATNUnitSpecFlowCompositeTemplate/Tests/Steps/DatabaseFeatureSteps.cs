@@ -26,7 +26,10 @@ namespace $safeprojectname$.Steps
         [Given(@"condition")]
         public void GivenCondition()
         {
-            // ScenarioContext.Current.Pending();
+            // Mark as pending as there user will likely not have a database configured
+            this.LocalScenarioContext.Pending();
+
+            Assert.IsTrue(this.QueryDatabase());
         }
 
         /// <summary>
@@ -35,7 +38,7 @@ namespace $safeprojectname$.Steps
         [When(@"action")]
         public void WhenAction()
         {
-            // ScenarioContext.Current.Pending();
+            // this.LocalScenarioContext.Pending();
         }
 
         /// <summary>
@@ -44,7 +47,7 @@ namespace $safeprojectname$.Steps
         [Then(@"verification")]
         public void ThenVerification()
         {
-            // ScenarioContext.Current.Pending();
+            // this.LocalScenarioContext.Pending();
         }
 
         /// <summary>

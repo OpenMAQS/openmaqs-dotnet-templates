@@ -1,4 +1,5 @@
 ﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
+using NUnit.Framework;
 using TechTalk.SpecFlow;
 
 namespace $safeprojectname$.Steps
@@ -24,7 +25,8 @@ namespace $safeprojectname$.Steps
         [Given(@"condition")]
         public void GivenCondition()
         {
-            // ScenarioContext.Current.Pending();
+            // this.LocalScenarioContext.Pending();
+            Assert.IsTrue(true, "True should be true");
         }
 
         /// <summary>
@@ -33,7 +35,8 @@ namespace $safeprojectname$.Steps
         [When(@"action")]
         public void WhenAction()
         {
-            // ScenarioContext.Current.Pending();
+            // this.LocalScenarioContext.Pending();
+            Assert.IsFalse(false, "False should be false");
         }
 
         /// <summary>
@@ -42,7 +45,7 @@ namespace $safeprojectname$.Steps
         [Then(@"verification")]
         public void ThenVerification()
         {
-            // ScenarioContext.Current.Pending();
+            // this.LocalScenarioContext.Pending();
         }
 
         //// Store objects

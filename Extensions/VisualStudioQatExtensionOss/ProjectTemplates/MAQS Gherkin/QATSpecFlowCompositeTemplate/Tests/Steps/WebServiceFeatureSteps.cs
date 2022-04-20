@@ -1,5 +1,5 @@
 ﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TechTalk.SpecFlow;
 
 namespace $safeprojectname$.Steps
@@ -34,7 +34,7 @@ namespace $safeprojectname$.Steps
         [When(@"action")]
         public void WhenAction()
         {
-            // ScenarioContext.Current.Pending();
+            // this.LocalScenarioContext.Pending();
         }
 
         /// <summary>
@@ -43,7 +43,7 @@ namespace $safeprojectname$.Steps
         [Then(@"verification")]
         public void ThenVerification()
         {
-            // ScenarioContext.Current.Pending();
+            // this.LocalScenarioContext.Pending();
         }
 
         /// <summary>
@@ -52,8 +52,8 @@ namespace $safeprojectname$.Steps
         private void CallEndpoint()
         {
             // Calls an endpoint
-            string result = this.WebServiceDriver.Get("/api/String/1", "text/plain", false);
-            Assert.IsTrue(result.Contains("Tomato Soup"), "Was expeting a result with Tomato Soup but instead got - " + result);
+            string result = this.WebServiceDriver.Get("maqs-dotnet-templates/README.md", "text/markdown");
+            Assert.IsTrue(result.Contains("MAQS"), "Expected readme to contain the name 'MAQS'");
         }
 
         //// Store objects
