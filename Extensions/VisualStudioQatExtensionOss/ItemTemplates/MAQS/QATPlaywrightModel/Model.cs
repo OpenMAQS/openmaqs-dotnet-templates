@@ -12,7 +12,7 @@ namespace $rootnamespace$
         /// </summary>
         public static string Url
         {
-            get { return PlaywrightConfig.WebBase() + "PAGE.html";
+            get { return PlaywrightConfig.WebBase() + "PAGE.html"; }
         }
 
         /// <summary>
