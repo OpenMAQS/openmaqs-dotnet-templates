@@ -1,7 +1,7 @@
 ﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
 using CognizantSoftvision.Maqs.Utilities.Helper;
-using NUnit.Framework;
 using Models.Mobile;
+using NUnit.Framework;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;
 using System;
