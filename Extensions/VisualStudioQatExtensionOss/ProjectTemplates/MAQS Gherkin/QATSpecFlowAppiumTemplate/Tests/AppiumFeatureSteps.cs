@@ -32,6 +32,9 @@ namespace $safeprojectname$
         [Given(@"I login as the '(.*)' user")]
         public void GivenILogInAsTheUser(string userType)
         {
+			// Mark as pending as there user will likely not have an Appium service setup
+            this.LocalScenarioContext.Pending();
+			
             ALoginPageModel startingPage = GetLoginPage();
             AHomePageModel homePage = startingPage.LoginWithValidCredentials(GetUserName(userType), GetUserPass(userType));
             this.LocalScenarioContext.Set(homePage);

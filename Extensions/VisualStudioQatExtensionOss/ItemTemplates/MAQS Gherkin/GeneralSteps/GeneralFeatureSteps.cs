@@ -24,7 +24,7 @@ namespace $rootnamespace$
         [Given(@"condition")]
         public void GivenCondition()
         {
-            ScenarioContext.Current.Pending();
+            this.LocalScenarioContext.Pending();
         }
         
         /// <summary>
@@ -33,7 +33,7 @@ namespace $rootnamespace$
         [When(@"action")]
         public void WhenAction()
         {
-            ScenarioContext.Current.Pending();
+            this.LocalScenarioContext.Pending();
         }
         
         /// <summary>
@@ -42,7 +42,7 @@ namespace $rootnamespace$
         [Then(@"verification")]
         public void ThenVerification()
         {
-            ScenarioContext.Current.Pending();
+            this.LocalScenarioContext.Pending();
         }
     }
 }

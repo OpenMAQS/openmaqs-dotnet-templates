@@ -5,12 +5,11 @@
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
-    <PackageReference Include="CognizantSoftvision.Maqs.SpecFlow" Version="8.0.1" />
-    <PackageReference Include="SpecFlow.MsTest" Version="3.9.40" />
-    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.40" />
+    <PackageReference Include="CognizantSoftvision.Maqs.SpecFlow" Version="9.0.0-alpha.3" />
+    <PackageReference Include="SpecFlow.MsTest" Version="3.9.69" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.9.69" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="App.config" />

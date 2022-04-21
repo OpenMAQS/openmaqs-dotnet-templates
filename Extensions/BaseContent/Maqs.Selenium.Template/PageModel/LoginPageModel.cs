@@ -13,7 +13,7 @@ namespace PageModel
         /// <summary>
         /// The page url
         /// </summary>
-        private static string PageUrl = SeleniumConfig.GetWebSiteBase() + "Static/Training3/loginpage.html";
+        private static string PageUrl = SeleniumConfig.GetWebSiteBase() + "Static/Training3/LoginPage.html";
 
         /// <summary>
         /// Initializes a new instance of the <see cref="LoginPageModel" /> class.

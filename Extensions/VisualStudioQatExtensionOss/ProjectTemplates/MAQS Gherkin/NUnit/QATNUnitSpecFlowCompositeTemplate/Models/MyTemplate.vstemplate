@@ -20,10 +20,16 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="Models.csproj" File="Models.csproj" ReplaceParameters="true">      
-      <Folder Name="WebPage" TargetFolderName="WebPage">
-        <ProjectItem ReplaceParameters="true" TargetFileName="LoginPageModel.cs">LoginPageModel.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="HomePageModel.cs">HomePageModel.cs</ProjectItem>
-      </Folder>
+	  <Folder Name="WebPage" TargetFolderName="WebPage">	
+		  <Folder Name="Playwright" TargetFolderName="Playwright">
+			<ProjectItem ReplaceParameters="true" TargetFileName="LoginPageModel.cs">LoginPageModel.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="HomePageModel.cs">HomePageModel.cs</ProjectItem>
+		  </Folder>
+		  <Folder Name="Selenium" TargetFolderName="Selenium">
+			<ProjectItem ReplaceParameters="true" TargetFileName="LoginPageModel.cs">LoginPageModel.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="HomePageModel.cs">HomePageModel.cs</ProjectItem>
+		  </Folder>
+	  </Folder>
       <Folder Name="WebService" TargetFolderName="WebService">
         <ProjectItem ReplaceParameters="true" TargetFileName="ProductJson.cs">ProductJson.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="ProductXml.cs">ProductXml.cs</ProjectItem>

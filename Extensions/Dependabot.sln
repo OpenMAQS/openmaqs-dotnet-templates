@@ -31,6 +31,10 @@ Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Selenium.Template", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\CognizantSoftvision.Maqs.Selenium.Template\Tests\Tests.csproj", "{7B428FE1-04D3-4039-8B2F-49B4D77E301E}"
 EndProject
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Playwright.Template", "Maqs.Playwright.Template", "{6696B091-E2B5-4B98-AECD-330552856ACE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\CognizantSoftvision.Maqs.Playwright.Template\Tests\Tests.csproj", "{99428FE1-04D3-4039-8B2F-49B4D77E301E}"
+EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Webservice.Template", "Maqs.Webservice.Template", "{5191E0A3-72D9-4EBB-B32C-5F611B680673}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\CognizantSoftvision.Maqs.Webservice.Template\Tests\Tests.csproj", "{586249E6-ABEF-443C-9CC3-022A68F57C2B}"
@@ -63,6 +67,10 @@ Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATSeleniumTemplate", "QATS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATSeleniumTemplate\Tests\Tests.csproj", "{CC065DF9-1B2C-4123-B7F6-743237DB11A1}"
 EndProject
+Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATPlaywrightTemplate", "QATPlaywrightTemplate", "{FD5B5DA4-8ACB-4BC7-978D-39FAC60CE079}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATPlaywrightTemplate\Tests\Tests.csproj", "{BB1C8753-5030-459F-B6E9-CD1D2B98E2B3}"
+EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "QATWebserviceTemplate", "QATWebserviceTemplate", "{28FC16FF-EF37-4241-8E8B-E383F4499C38}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATWebserviceTemplate\Tests\Tests.csproj", "{50D46138-38A9-40C1-8310-EAA146A41E68}"
@@ -79,6 +87,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATSeleniumTemplate\Tests\Tests.csproj", "{FBC18186-00DA-4F07-9A02-3B6F7EB00F3B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATSeleniumTemplate\Tests\Tests.csproj", "{ABC14146-00DA-4F07-9A02-3B6F7EB00F3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATPlaywrightTemplate\Tests\Tests.csproj", "{CBA61416-00DA-4F07-9A02-3B6F7EB00F3B}"
+EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATWebserviceTemplate\Tests\Tests.csproj", "{B56CB921-1008-4216-82C5-634EFBB981EC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServiceModel", "BaseContent\Maqs.Webservice.Template\WebServiceModel\WebServiceModel.csproj", "{8B125168-E51A-45ED-A635-F07731C13665}"
@@ -86,6 +98,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "BaseContent\Maqs.Composite.Template\Models\Models.csproj", "{7B125168-E51A-45ED-A635-F07731C13665}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PageModel", "BaseContent\Maqs.Selenium.Template\PageModel\PageModel.csproj", "{6B125168-E51A-45ED-A635-F07731C13665}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PageModel", "BaseContent\Maqs.Playwright.Template\PageModel\PageModel.csproj", "{8A225167-E51A-45ED-A635-F07731C13665}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Webservice.Template\Tests\Tests.csproj", "{5B125168-E51A-45ED-A635-F07731C13665}"
 EndProject
@@ -99,7 +113,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PageModel", "BaseContent\Ma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Composite.Template\Tests\Tests.csproj", "{0B125168-E51A-45ED-A635-F07731C13665}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Selenium.Template\Tests\Tests.csproj", "{AB125168-E51A-45ED-A635-F07731C13665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Playwright.Template\Tests\Tests.csproj", "{AB125168-E51A-45ED-A635-F07731C13665}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "BaseContent\Maqs.Appium.Template\Tests\Tests.csproj", "{BB125168-E51A-45ED-A635-F07731C13665}"
 EndProject
@@ -227,8 +241,6 @@ Global
 		{AB125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		
-		
 		{8B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6B125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
@@ -264,6 +276,30 @@ Global
 		{FBC18186-00DA-4F07-9A02-3B6F7EB00F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBC18186-00DA-4F07-9A02-3B6F7EB00F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBC18186-00DA-4F07-9A02-3B6F7EB00F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB125168-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB125168-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A225167-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A225167-E51A-45ED-A635-F07731C13665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A225167-E51A-45ED-A635-F07731C13665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A225167-E51A-45ED-A635-F07731C13665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA61416-00DA-4F07-9A02-3B6F7EB00F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA61416-00DA-4F07-9A02-3B6F7EB00F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA61416-00DA-4F07-9A02-3B6F7EB00F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA61416-00DA-4F07-9A02-3B6F7EB00F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1C8753-5030-459F-B6E9-CD1D2B98E2B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1C8753-5030-459F-B6E9-CD1D2B98E2B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1C8753-5030-459F-B6E9-CD1D2B98E2B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1C8753-5030-459F-B6E9-CD1D2B98E2B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6696B091-E2B5-4B98-AECD-330552856ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6696B091-E2B5-4B98-AECD-330552856ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6696B091-E2B5-4B98-AECD-330552856ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6696B091-E2B5-4B98-AECD-330552856ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99428FE1-04D3-4039-8B2F-49B4D77E301E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99428FE1-04D3-4039-8B2F-49B4D77E301E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99428FE1-04D3-4039-8B2F-49B4D77E301E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99428FE1-04D3-4039-8B2F-49B4D77E301E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B56CB921-1008-4216-82C5-634EFBB981EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B56CB921-1008-4216-82C5-634EFBB981EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B56CB921-1008-4216-82C5-634EFBB981EC}.Release|Any CPU.ActiveCfg = Release|Any CPU

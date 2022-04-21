@@ -1,0 +1,25 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>MAQS - Playwright (.Net Core)</Name>
+		<DefaultName>PlaywrightTests</DefaultName>
+        <Description>Modular automation quick start framework for Playwright testing</Description>
+        <Icon>QATTest.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+    <LanguageTag>C#</LanguageTag>
+    <PlatformTag>windows</PlatformTag>
+    <ProjectTypeTag>test</ProjectTypeTag>
+    <ProjectTypeTag>MAQS</ProjectTypeTag>
+		<ProjectSubType>MAQS</ProjectSubType>
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+                <ProjectTemplateLink ProjectName="PageModel">
+                    PageModel\MyTemplate.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="Tests">
+                    Tests\MyTemplate.vstemplate
+                </ProjectTemplateLink>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>

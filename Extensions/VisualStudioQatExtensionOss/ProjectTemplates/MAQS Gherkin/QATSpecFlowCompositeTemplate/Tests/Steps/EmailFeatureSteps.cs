@@ -1,5 +1,5 @@
 ﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TechTalk.SpecFlow;
 
 namespace $safeprojectname$.Steps
@@ -25,7 +25,8 @@ namespace $safeprojectname$.Steps
         [Given(@"condition")]
         public void GivenCondition()
         {
-            // ScenarioContext.Current.Pending();
+            // Mark as pending as there user will likely not have an email configured
+            this.LocalScenarioContext.Pending();
         }
 
         /// <summary>
@@ -34,7 +35,7 @@ namespace $safeprojectname$.Steps
         [When(@"action")]
         public void WhenAction()
         {
-            // ScenarioContext.Current.Pending();
+            // this.LocalScenarioContext.Pending();
         }
 
         /// <summary>
@@ -43,7 +44,7 @@ namespace $safeprojectname$.Steps
         [Then(@"verification")]
         public void ThenVerification()
         {
-            // ScenarioContext.Current.Pending();
+            // this.LocalScenarioContext.Pending();
             Assert.IsTrue(this.EmailDriver.CanAccessEmailAccount(), "Email account was not accessible");
         }
 

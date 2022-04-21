@@ -14,6 +14,11 @@
   Author:         Cognizant
   Creation Date:  01/18/2022
   Purpose/Change: Update for Cognizant Softvision. 
+  
+  Version:        3.0
+  Author:         Cognizant
+  Creation Date:  04/18/2022
+  Purpose/Change: Add Playwright. 
 #>
 
 Function UpdateCore {
@@ -91,3 +96,7 @@ Function UpdateCore {
  UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Webservice.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATWebserviceTemplate"
  UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Webservice.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATWebserviceTemplate"
  UpdateCore $PSScriptRoot"\BaseContent\Maqs.Webservice.Template" $PSScriptRoot"\CoreTemplates\CognizantSoftvision.Maqs.Webservice.Template"
+ 
+ UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Playwright.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATPlaywrightTemplate"
+ UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Playwright.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATPlaywrightTemplate"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Playwright.Template" $PSScriptRoot"\CoreTemplates\CognizantSoftvision.Maqs.Playwright.Template"

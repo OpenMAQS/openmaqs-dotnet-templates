@@ -1,0 +1,26 @@
+﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
+using NUnit.Framework;
+
+// TODO: Add reference to object model
+// using PageModel;
+
+namespace $rootnamespace$
+{
+    /// <summary>
+    /// $safeitemname$ test class
+    /// </summary>
+    [TestFixture]
+    public class $safeitemname$ : BasePlaywrightTest
+    {
+        /// <summary>
+        /// Sample test
+        /// </summary>
+        [Test]
+        public void SampleTest()
+        {
+            // TODO: Add test code
+            //PageModel page = new PageModel(this.TestObject);
+            //page.OpenPage();
+        }
+    }
+}

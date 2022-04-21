@@ -25,6 +25,7 @@
       <ProjectItem ReplaceParameters="true" TargetFileName="BasicNUnitTests.cs">BasicNUnitTests.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="DatabaseTests.cs">DatabaseTests.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="EmailTests.cs">EmailTests.cs</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="PlaywrightTests.cs">PlaywrightTests.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="SeleniumTests.cs">SeleniumTests.cs</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="WebServiceTests.cs">WebServiceTests.cs</ProjectItem>
     </Project>
