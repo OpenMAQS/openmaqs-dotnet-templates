@@ -25,7 +25,7 @@ namespace $rootnamespace$
         [Given(@"condition")]
         public void GivenCondition()
         {
-            ScenarioContext.Current.Pending();
+            this.LocalScenarioContext.Pending();
         }
         
         /// <summary>
@@ -34,7 +34,7 @@ namespace $rootnamespace$
         [When(@"action")]
         public void WhenAction()
         {
-            ScenarioContext.Current.Pending();
+            this.LocalScenarioContext.Pending();
         }
         
         /// <summary>
@@ -43,17 +43,7 @@ namespace $rootnamespace$
         [Then(@"verification")]
         public void ThenVerification()
         {
-            ScenarioContext.Current.Pending();
-        }
-
-        /// <summary>
-        /// Queries the database and returns the table
-        /// </summary>
-        /// <param name="query">The query string</param>
-        /// <returns>The data table returned</returns>
-        private DataTable QueryDatabase(string query)
-        {
-            return this.TestObject.DatabaseDriver.QueryAndGetDataTable(query);
+            this.LocalScenarioContext.Pending();
         }
     }
 }
