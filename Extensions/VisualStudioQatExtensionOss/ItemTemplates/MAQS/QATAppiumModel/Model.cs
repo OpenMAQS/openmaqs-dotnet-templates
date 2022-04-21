@@ -13,7 +13,7 @@ namespace $rootnamespace$
         /// <summary>
         /// The user name input element 'By' finder
         /// </summary>
-        protected override LazyMobileElement UserNameInput
+        protected LazyMobileElement UserNameInput
         {
             get { return new LazyMobileElement(this.TestObject, By.Id("UserName"), "User Name Field"); }
         }
@@ -21,7 +21,7 @@ namespace $rootnamespace$
         /// <summary>
         /// The password input element 'By' finder
         /// </summary>
-        protected override LazyMobileElement PasswordInput
+        protected LazyMobileElement PasswordInput
         {
             get { return new LazyMobileElement(this.TestObject, By.Id("Password"), "Password Field"); }
         }
@@ -29,7 +29,7 @@ namespace $rootnamespace$
         /// <summary>
         /// The login button element 'By' finder
         /// </summary>
-        protected override LazyMobileElement LoginButton
+        protected LazyMobileElement LoginButton
         {
             get { return new LazyMobileElement(this.TestObject, By.Id("Login"), "Login Button"); }
         }
