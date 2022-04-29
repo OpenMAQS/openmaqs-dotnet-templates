@@ -26,6 +26,7 @@ The main idea behind MAQS is to avoid **reinventing the wheel**. Most automation
 
 ## Help files
 
+- [MAQS 9](https://cognizantopensource.github.io/maqs-dotnet-templates/#/MAQS_9/Introduction)
 - [MAQS 8](https://cognizantopensource.github.io/maqs-dotnet-templates/#/MAQS_8/Introduction)
 
 ## Powered By
