@@ -9,7 +9,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CognizantSoftvision.Maqs.Selenium" Version="9.0.0" />
+    <PackageReference Include="CognizantSoftvision.Maqs.Selenium" Version="9.0.3" />
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
