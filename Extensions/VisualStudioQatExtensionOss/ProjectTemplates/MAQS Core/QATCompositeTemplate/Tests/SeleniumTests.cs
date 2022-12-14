@@ -1,6 +1,6 @@
-using CognizantSoftvision.Maqs.BaseDatabaseTest;
-using CognizantSoftvision.Maqs.BaseSeleniumTest;
-using CognizantSoftvision.Maqs.BaseWebServiceTest;
+using Maqs.BaseDatabaseTest;
+using Maqs.BaseSeleniumTest;
+using Maqs.BaseWebServiceTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Models.WebPage.Selenium;
 using System;

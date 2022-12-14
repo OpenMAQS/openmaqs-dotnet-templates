@@ -1,5 +1,5 @@
-using CognizantSoftvision.Maqs.BasePlaywrightTest;
-using CognizantSoftvision.Maqs.BaseWebServiceTest;
+using Maqs.BasePlaywrightTest;
+using Maqs.BaseWebServiceTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Models.WebPage.Playwright;
 using System;

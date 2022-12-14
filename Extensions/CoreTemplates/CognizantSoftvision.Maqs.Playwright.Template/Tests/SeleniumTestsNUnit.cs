@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseSeleniumTest;
+﻿using Maqs.BaseSeleniumTest;
 using NUnit.Framework;
 using PageModel;
 

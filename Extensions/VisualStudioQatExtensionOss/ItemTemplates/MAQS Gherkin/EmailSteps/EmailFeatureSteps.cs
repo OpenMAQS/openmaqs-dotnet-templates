@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
+﻿using Maqs.SpecFlow.TestSteps;
 using TechTalk.SpecFlow;
 
 namespace $rootnamespace$

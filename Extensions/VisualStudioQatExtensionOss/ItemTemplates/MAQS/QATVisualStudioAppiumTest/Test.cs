@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseAppiumTest;
+﻿using Maqs.BaseAppiumTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 // TODO: Add reference to object model

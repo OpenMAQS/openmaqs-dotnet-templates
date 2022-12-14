@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="7f8a17ec-cc72-413f-ae85-bbbbb77f2d1f" Version="9.0.0.0" Language="en-US" Publisher="Cognizant" />
+        <Identity Id="7f8a17ec-cc72-413f-ae85-bbbbb77f2d1f" Version="9.0.0.0" Language="en-US" Publisher="MAQS" />
         <DisplayName>MAQS</DisplayName>
         <Description xml:space="preserve">MAQS (modular automation quick start) framework</Description>
-        <MoreInfo>https://www.cognizantsoftvision.com/communities/qa-community/</MoreInfo>
+        <MoreInfo>https://www.com/communities/qa-community/</MoreInfo>
         <License>License.txt</License>
-        <GettingStartedGuide>https://cognizantopensource.github.io/maqs-dotnet/#/MAQS_9/Introduction</GettingStartedGuide>
+        <GettingStartedGuide>https://MAQS-Framework.github.io/maqs-dotnet/#/MAQS_9/Introduction</GettingStartedGuide>
         <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
         <Icon>QATTest.ico</Icon>
         <PreviewImage>QATTest.ico</PreviewImage>

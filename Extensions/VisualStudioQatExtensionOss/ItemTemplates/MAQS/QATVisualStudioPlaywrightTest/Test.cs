@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
+﻿using Maqs.BasePlaywrightTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 // TODO: Add reference to object model

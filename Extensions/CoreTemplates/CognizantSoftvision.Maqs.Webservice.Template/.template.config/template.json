@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "CognizantSoftvision",
+  "author": "MAQS",
   "classifications": [ "Test" ], 
-  "name": "CognizantSoftvision MAQS webservice template",
-  "identity": "CognizantSoftvision.Maqs.Webservice.CSharp",         
-  "groupIdentity":"CognizantSoftvision.Maqs.Webservice.Sample",
+  "name": "MAQS webservice template",
+  "identity": "Maqs.Webservice.CSharp",         
+  "groupIdentity":"Maqs.Webservice.Sample",
   "shortName": "MaqsWebservice",
   "tags": {
     "language": "C#",

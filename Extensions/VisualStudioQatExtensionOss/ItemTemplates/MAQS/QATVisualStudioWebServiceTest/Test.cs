@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseWebServiceTest;
+﻿using Maqs.BaseWebServiceTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 // TODO: Add reference to object model

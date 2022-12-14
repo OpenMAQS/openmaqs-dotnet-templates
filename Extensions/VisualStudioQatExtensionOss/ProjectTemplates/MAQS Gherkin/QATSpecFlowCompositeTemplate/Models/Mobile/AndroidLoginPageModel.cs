@@ -1,5 +1,5 @@
 ﻿using System;
-using CognizantSoftvision.Maqs.BaseAppiumTest;
+using Maqs.BaseAppiumTest;
 using OpenQA.Selenium;
 namespace Models.Mobile
 {

@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseAppiumTest;
+﻿using Maqs.BaseAppiumTest;
 using NUnit.Framework;
 using OpenQA.Selenium.Appium.Android;
 using OpenQA.Selenium.Appium.iOS;

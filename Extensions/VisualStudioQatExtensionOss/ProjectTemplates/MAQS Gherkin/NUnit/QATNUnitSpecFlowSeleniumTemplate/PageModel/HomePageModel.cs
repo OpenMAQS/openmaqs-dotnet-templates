@@ -1,6 +1,6 @@
-﻿using CognizantSoftvision.Maqs.BaseSeleniumTest;
-using CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions;
-using CognizantSoftvision.Maqs.Utilities.Helper;
+﻿using Maqs.BaseSeleniumTest;
+using Maqs.BaseSeleniumTest.Extensions;
+using Maqs.Utilities.Helper;
 using OpenQA.Selenium;
 
 namespace $safeprojectname$

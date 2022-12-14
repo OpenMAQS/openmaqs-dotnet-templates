@@ -1,4 +1,4 @@
-using CognizantSoftvision.Maqs.BaseSeleniumTest;
+using Maqs.BaseSeleniumTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PageModel;
 

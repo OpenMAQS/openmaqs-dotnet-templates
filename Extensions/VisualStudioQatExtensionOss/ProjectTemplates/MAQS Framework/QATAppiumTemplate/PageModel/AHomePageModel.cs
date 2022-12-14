@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseAppiumTest;
+﻿using Maqs.BaseAppiumTest;
 
 namespace PageModel
 {

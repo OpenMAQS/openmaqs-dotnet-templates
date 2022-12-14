@@ -45,7 +45,7 @@ jobs:
             else
             {
               Write-Host "Using latest MAQS release version"
-              $endPoint = "https://api.github.com/repos/CognizantOpenSource/maqs-dotnet/releases/latest"
+              $endPoint = "https://api.github.com/repos/MAQS-Framework/maqs-dotnet/releases/latest"
               $info = Invoke-RestMethod -Uri $endPoint
               $version = $info.name.Trim("v")
             }
@@ -141,7 +141,7 @@ jobs:
       - name: Run Core Tests
         shell: pwsh
         run: |
-              dotnet new -i "${{github.workspace}}/nuget/CognizantSoftvision.Maqs.Templates.${{ needs.getVersion.outputs.buildNumber }}.nupkg"
+              dotnet new -i "${{github.workspace}}/nuget/Maqs.Templates.${{ needs.getVersion.outputs.buildNumber }}.nupkg"
               mkdir Results
               mkdir Appium
               cd Appium

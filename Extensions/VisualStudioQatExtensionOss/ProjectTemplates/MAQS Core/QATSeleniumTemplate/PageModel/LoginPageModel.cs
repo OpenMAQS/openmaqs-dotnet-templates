@@ -1,5 +1,5 @@
-﻿using CognizantSoftvision.Maqs.BaseSeleniumTest;
-using CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions;
+﻿using Maqs.BaseSeleniumTest;
+using Maqs.BaseSeleniumTest.Extensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 

@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
+﻿using Maqs.SpecFlow.TestSteps;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TechTalk.SpecFlow;
 

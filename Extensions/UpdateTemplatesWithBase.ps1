@@ -11,12 +11,12 @@
   Purpose/Change: Initial script development. 
 
   Version:        2.0
-  Author:         Cognizant
+  Author:         MAQS
   Creation Date:  01/18/2022
-  Purpose/Change: Update for Cognizant Softvision. 
+  Purpose/Change: Update for MAQS. 
   
   Version:        3.0
-  Author:         Cognizant
+  Author:         MAQS
   Creation Date:  04/18/2022
   Purpose/Change: Add Playwright. 
 #>
@@ -71,32 +71,32 @@ Function UpdateCore {
 
  UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Appium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATAppiumTemplate"
  UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Appium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATAppiumTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Maqs.Appium.Template" $PSScriptRoot"\CoreTemplates\CognizantSoftvision.Maqs.Appium.Template"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Appium.Template" $PSScriptRoot"\CoreTemplates\Maqs.Appium.Template"
 
  UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Base.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATBaseTemplate"
  UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Base.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATBaseTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Maqs.Base.Template" $PSScriptRoot"\CoreTemplates\CognizantSoftvision.Maqs.Base.Template"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Base.Template" $PSScriptRoot"\CoreTemplates\Maqs.Base.Template"
 
  UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Composite.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATCompositeTemplate"
  UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Composite.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATCompositeTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Maqs.Composite.Template" $PSScriptRoot"\CoreTemplates\CognizantSoftvision.Maqs.Composite.Template"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Composite.Template" $PSScriptRoot"\CoreTemplates\Maqs.Composite.Template"
 
  UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Database.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATDatabaseTemplate"
  UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Database.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATDatabaseTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Maqs.Database.Template" $PSScriptRoot"\CoreTemplates\CognizantSoftvision.Maqs.Database.Template"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Database.Template" $PSScriptRoot"\CoreTemplates\Maqs.Database.Template"
 
  UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Email.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATEmailTemplate"
  UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Email.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATEmailTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Maqs.Email.Template" $PSScriptRoot"\CoreTemplates\CognizantSoftvision.Maqs.Email.Template"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Email.Template" $PSScriptRoot"\CoreTemplates\Maqs.Email.Template"
 
  UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Selenium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATSeleniumTemplate"
  UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Selenium.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATSeleniumTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Maqs.Selenium.Template" $PSScriptRoot"\CoreTemplates\CognizantSoftvision.Maqs.Selenium.Template"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Selenium.Template" $PSScriptRoot"\CoreTemplates\Maqs.Selenium.Template"
  
  UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Webservice.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATWebserviceTemplate"
  UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Webservice.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATWebserviceTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Maqs.Webservice.Template" $PSScriptRoot"\CoreTemplates\CognizantSoftvision.Maqs.Webservice.Template"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Webservice.Template" $PSScriptRoot"\CoreTemplates\Maqs.Webservice.Template"
  
  UpdateCoreStudio $PSScriptRoot"\BaseContent\Maqs.Playwright.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Core\QATPlaywrightTemplate"
  UpdateFrameworkStudio $PSScriptRoot"\BaseContent\Maqs.Playwright.Template" $PSScriptRoot"\VisualStudioQatExtensionOss\ProjectTemplates\MAQS Framework\QATPlaywrightTemplate"
- UpdateCore $PSScriptRoot"\BaseContent\Maqs.Playwright.Template" $PSScriptRoot"\CoreTemplates\CognizantSoftvision.Maqs.Playwright.Template"
+ UpdateCore $PSScriptRoot"\BaseContent\Maqs.Playwright.Template" $PSScriptRoot"\CoreTemplates\Maqs.Playwright.Template"

@@ -1,5 +1,5 @@
-﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
-using CognizantSoftvision.Maqs.Utilities.Helper;
+﻿using Maqs.SpecFlow.TestSteps;
+using Maqs.Utilities.Helper;
 using Models.Mobile;
 using NUnit.Framework;
 using OpenQA.Selenium.Appium.Android;

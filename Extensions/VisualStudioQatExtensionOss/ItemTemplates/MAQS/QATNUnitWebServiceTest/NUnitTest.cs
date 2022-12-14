@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseWebServiceTest;
+﻿using Maqs.BaseWebServiceTest;
 using NUnit.Framework;
 
 // TODO: Add reference to object model

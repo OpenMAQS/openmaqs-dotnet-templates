@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata minClientVersion="3.6">
-    <id>CognizantSoftvision.Maqs.Templates</id>
+    <id>Maqs.Templates</id>
     <version>8.0</version>
     <title>MAQS Core Templates</title>
-    <authors>CognizantSoftvision</authors>
-    <owners>Cognizant</owners>
+    <authors>MAQS</authors>
+    <owners>MAQS</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <icon>MAQS.jpg</icon>
-    <projectUrl>https://github.com/CognizantOpenSource/maqs-dotnet</projectUrl>
+    <projectUrl>https://github.com/MAQS-Framework/maqs-dotnet</projectUrl>
     <description>Modular automation quick start .Net Core templates</description>
-    <copyright>Copyright © Cognizant 2022</copyright>
-    <summary>Templates for CognizantSoftvision's automation framework. 
+    <copyright>Copyright © MAQS 2022</copyright>
+    <summary>Templates for MAQS's automation framework. 
 This package includes templates for browser, mobile, web service, database, email, generic and composite test solutions.</summary>
     <releaseNotes>
       8.*.* - 2022/1/13 +
-      See release notes at: https://github.com/CognizantOpenSource/maqs-dotnet/releases
+      See release notes at: https://github.com/MAQS-Framework/maqs-dotnet/releases
     
     </releaseNotes>
     <tags>Test Testing Automation Selenium Appium Database Service Email MAQS NUnit MSTest TestFramework</tags>

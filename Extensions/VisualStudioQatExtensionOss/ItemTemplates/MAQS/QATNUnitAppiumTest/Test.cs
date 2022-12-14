@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseAppiumTest;
+﻿using Maqs.BaseAppiumTest;
 using NUnit.Framework;
 
 // TODO: Add reference to object model

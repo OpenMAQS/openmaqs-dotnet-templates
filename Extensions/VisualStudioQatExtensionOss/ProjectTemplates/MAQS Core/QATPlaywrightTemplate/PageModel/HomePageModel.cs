@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
+﻿using Maqs.BasePlaywrightTest;
 
 namespace PageModel
 {

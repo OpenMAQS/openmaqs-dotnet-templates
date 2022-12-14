@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MAQS Framework")]
-[assembly: AssemblyDescription("Cognizant Softvision's open source automation framework")]
+[assembly: AssemblyDescription("MAQS's open source automation framework")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Cognizant")]
+[assembly: AssemblyCompany("MAQS")]
 [assembly: AssemblyProduct("MAQS Framework")]
-[assembly: AssemblyCopyright("Cognizant")]
+[assembly: AssemblyCopyright("MAQS")]
 [assembly: AssemblyTrademark("MAQS")]
 [assembly: AssemblyCulture("")]
 

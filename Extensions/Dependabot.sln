@@ -9,35 +9,35 @@ Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "VisualStudioQatExtensionOss
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Appium.Template", "Maqs.Appium.Template", "{73F5C935-E157-4204-A036-4C29FFC27BF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\CognizantSoftvision.Maqs.Appium.Template\Tests\Tests.csproj", "{6FC6A4A5-D88E-4750-8A6C-4457243D43B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Appium.Template\Tests\Tests.csproj", "{6FC6A4A5-D88E-4750-8A6C-4457243D43B8}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Base.Template", "Maqs.Base.Template", "{D9DF7923-4E8E-4D9D-A955-1B1F54850FDF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\CognizantSoftvision.Maqs.Base.Template\Tests\Tests.csproj", "{DAFCCCC6-7467-4136-A1C4-F929F553AAE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Base.Template\Tests\Tests.csproj", "{DAFCCCC6-7467-4136-A1C4-F929F553AAE3}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Composite.Template", "Maqs.Composite.Template", "{AF3A6D1C-1796-45B3-9FCC-9DE80F498D37}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\CognizantSoftvision.Maqs.Composite.Template\Tests\Tests.csproj", "{2870CB9D-D604-475A-866E-A68D817EA141}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Composite.Template\Tests\Tests.csproj", "{2870CB9D-D604-475A-866E-A68D817EA141}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Database.Template", "Maqs.Database.Template", "{FD51E54F-963C-4E5C-87C8-CC3290823B8F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\CognizantSoftvision.Maqs.Database.Template\Tests\Tests.csproj", "{8A95C992-C57A-475B-B5A0-1221E43B025B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Database.Template\Tests\Tests.csproj", "{8A95C992-C57A-475B-B5A0-1221E43B025B}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Email.Template", "Maqs.Email.Template", "{527D4C8F-5D1A-4522-A0B5-2FC2BCAB530F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\CognizantSoftvision.Maqs.Email.Template\Tests\Tests.csproj", "{27B91705-0EF7-4167-A5F8-8CDABFF55544}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Email.Template\Tests\Tests.csproj", "{27B91705-0EF7-4167-A5F8-8CDABFF55544}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Selenium.Template", "Maqs.Selenium.Template", "{5596B091-E2B5-4B98-AECD-330552856ACE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\CognizantSoftvision.Maqs.Selenium.Template\Tests\Tests.csproj", "{7B428FE1-04D3-4039-8B2F-49B4D77E301E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Selenium.Template\Tests\Tests.csproj", "{7B428FE1-04D3-4039-8B2F-49B4D77E301E}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Playwright.Template", "Maqs.Playwright.Template", "{6696B091-E2B5-4B98-AECD-330552856ACE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\CognizantSoftvision.Maqs.Playwright.Template\Tests\Tests.csproj", "{99428FE1-04D3-4039-8B2F-49B4D77E301E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Playwright.Template\Tests\Tests.csproj", "{99428FE1-04D3-4039-8B2F-49B4D77E301E}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "Maqs.Webservice.Template", "Maqs.Webservice.Template", "{5191E0A3-72D9-4EBB-B32C-5F611B680673}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\CognizantSoftvision.Maqs.Webservice.Template\Tests\Tests.csproj", "{586249E6-ABEF-443C-9CC3-022A68F57C2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "CoreTemplates\Maqs.Webservice.Template\Tests\Tests.csproj", "{586249E6-ABEF-443C-9CC3-022A68F57C2B}"
 EndProject
 Project("{2150E333-8FDC-42A2-9474-1A3956D46DE8}") = "MAQS Framework", "MAQS Framework", "{ADDA9DD8-6815-41D2-85F3-C6A76AF10416}"
 EndProject

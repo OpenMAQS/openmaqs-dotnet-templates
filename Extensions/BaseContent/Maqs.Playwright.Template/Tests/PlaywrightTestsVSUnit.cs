@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
+﻿using Maqs.BasePlaywrightTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PageModel;
 

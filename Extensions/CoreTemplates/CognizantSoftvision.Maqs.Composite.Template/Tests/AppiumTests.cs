@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseAppiumTest;
+﻿using Maqs.BaseAppiumTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Models.Mobile;
 using OpenQA.Selenium.Appium.Android;

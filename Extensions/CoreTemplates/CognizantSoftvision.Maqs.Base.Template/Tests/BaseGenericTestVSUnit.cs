@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseTest;
+﻿using Maqs.BaseTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Tests

@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseWebServiceTest;
+﻿using Maqs.BaseWebServiceTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Net.Http;

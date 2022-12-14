@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseDatabaseTest;
+﻿using Maqs.BaseDatabaseTest;
 using NUnit.Framework;
 
 namespace Tests

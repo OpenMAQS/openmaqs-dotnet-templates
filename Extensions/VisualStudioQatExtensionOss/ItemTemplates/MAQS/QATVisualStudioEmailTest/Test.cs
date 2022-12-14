@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseEmailTest;
+﻿using Maqs.BaseEmailTest;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace $rootnamespace$

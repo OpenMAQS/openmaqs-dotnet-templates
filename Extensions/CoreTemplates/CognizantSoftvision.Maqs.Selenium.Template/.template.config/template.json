@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "CognizantSoftvision",
+  "author": "MAQS",
   "classifications": [ "Test" ], 
-  "name": "CognizantSoftvision MAQS Selenium template",
-  "identity": "CognizantSoftvision.Maqs.Selenium.CSharp",         
-  "groupIdentity":"CognizantSoftvision.Maqs.Selenium.Sample",
+  "name": "MAQS Selenium template",
+  "identity": "Maqs.Selenium.CSharp",         
+  "groupIdentity":"Maqs.Selenium.Sample",
   "shortName": "MaqsSelenium",
   "tags": {
     "language": "C#",

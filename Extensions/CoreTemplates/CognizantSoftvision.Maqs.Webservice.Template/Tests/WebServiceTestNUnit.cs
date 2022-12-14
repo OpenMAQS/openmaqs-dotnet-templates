@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BaseWebServiceTest;
+﻿using Maqs.BaseWebServiceTest;
 using NUnit.Framework;
 using System;
 using System.Net.Http;

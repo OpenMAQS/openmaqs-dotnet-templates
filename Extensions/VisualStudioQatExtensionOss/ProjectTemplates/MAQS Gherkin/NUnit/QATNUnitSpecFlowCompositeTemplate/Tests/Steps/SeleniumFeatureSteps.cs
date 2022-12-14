@@ -1,5 +1,5 @@
-﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
-using CognizantSoftvision.Maqs.Utilities.Helper;
+﻿using Maqs.SpecFlow.TestSteps;
+using Maqs.Utilities.Helper;
 using NUnit.Framework;
 using Models.WebPage.Selenium;
 using System;
