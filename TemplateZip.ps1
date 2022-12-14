@@ -29,7 +29,7 @@
   Purpose/Change: Add SpecFlow templates.
 
   Version:        5.0
-  Author:         MAQS
+  Author:         Cognizant Softvision
   Creation Date:  01/18/2022
   Purpose/Change: Update for MAQS Framework. 
   
