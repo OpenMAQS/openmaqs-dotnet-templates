@@ -4,7 +4,7 @@
   "identity": {
     "description": "Modular automation quick start framework",
     "displayName": "MAQS Framework",
-    "internalName": "MAQSOpenFramework"
+    "internalName": "MAQS Open Framework"
   },
   "overview": "overview.md",
   "priceCategory": "free",
