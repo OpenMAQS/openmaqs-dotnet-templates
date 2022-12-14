@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "CognizantSoftvision",
+  "author": "MAQS",
   "classifications": [ "Test" ], 
-  "name": "CognizantSoftvision MAQS email template",
-  "identity": "CognizantSoftvision.Maqs.Email.CSharp",         
-  "groupIdentity":"CognizantSoftvision.Maqs.Email.Sample",
+  "name": "MAQS email template",
+  "identity": "Maqs.Email.CSharp",         
+  "groupIdentity":"Maqs.Email.Sample",
   "shortName": "MaqsEmail",
   "tags": {
     "language": "C#",

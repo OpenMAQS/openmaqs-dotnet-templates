@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "CognizantSoftvision",
+  "author": "MAQS",
   "classifications": [ "Test" ], 
-  "name": "CognizantSoftvision MAQS Playwright template",
-  "identity": "CognizantSoftvision.Maqs.Playwright.CSharp",         
-  "groupIdentity":"CognizantSoftvision.Maqs.Playwright.Sample",
+  "name": "MAQS Playwright template",
+  "identity": "Maqs.Playwright.CSharp",         
+  "groupIdentity":"Maqs.Playwright.Sample",
   "shortName": "MaqsPlaywright",
   "tags": {
     "language": "C#",

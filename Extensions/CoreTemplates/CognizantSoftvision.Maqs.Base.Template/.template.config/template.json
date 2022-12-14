@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "CognizantSoftvision",
+  "author": "MAQS",
   "classifications": [ "Test" ], 
-  "name": "CognizantSoftvision MAQS Base template",
-  "identity": "CognizantSoftvision.Maqs.Base.CSharp",         
-  "groupIdentity":"CognizantSoftvision.Maqs.Base.Sample",
+  "name": "MAQS Base template",
+  "identity": "Maqs.Base.CSharp",         
+  "groupIdentity":"Maqs.Base.Sample",
   "shortName": "MaqsBase",
   "tags": {
     "language": "C#",
