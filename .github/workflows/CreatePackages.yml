@@ -79,7 +79,7 @@ jobs:
     - name: Install .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 5.0.x
+        dotnet-version: 8.x.x
 
     # Add the template data to the template zip files
     - uses: actions/checkout@v1

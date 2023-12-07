@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "OpenMAQS",
   "classifications": [ "Test" ], 
-  "name": "OpenMAQS MAQS webservice template",
+  "name": "OpenMAQS webservice template",
   "identity": "OpenMAQS.Maqs.Webservice.CSharp",         
   "groupIdentity":"OpenMAQS.Maqs.Webservice.Sample",
   "shortName": "MaqsWebservice",

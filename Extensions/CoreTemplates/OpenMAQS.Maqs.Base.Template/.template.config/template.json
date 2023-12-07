@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "OpenMAQS",
   "classifications": [ "Test" ], 
-  "name": "OpenMAQS MAQS Base template",
+  "name": "OpenMAQS Base template",
   "identity": "OpenMAQS.Maqs.Base.CSharp",         
   "groupIdentity":"OpenMAQS.Maqs.Base.Sample",
   "shortName": "MaqsBase",
