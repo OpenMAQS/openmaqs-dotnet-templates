@@ -1,4 +1,4 @@
-using CognizantSoftvision.Maqs.BaseDatabaseTest;
+using OpenMAQS.Maqs.BaseDatabaseTest;
 using NUnit.Framework;
 
 namespace $safeprojectname$

@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
+﻿using OpenMAQS.Maqs.SpecFlow.TestSteps;
 using System.Data;
 using TechTalk.SpecFlow;
 

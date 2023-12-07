@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "CognizantSoftvision",
+  "author": "OpenMAQS",
   "classifications": [ "Test" ], 
-  "name": "CognizantSoftvision MAQS email template",
-  "identity": "CognizantSoftvision.Maqs.Email.CSharp",         
-  "groupIdentity":"CognizantSoftvision.Maqs.Email.Sample",
+  "name": "OpenMAQS MAQS email template",
+  "identity": "OpenMAQS.Maqs.Email.CSharp",         
+  "groupIdentity":"OpenMAQS.Maqs.Email.Sample",
   "shortName": "MaqsEmail",
   "tags": {
     "language": "C#",

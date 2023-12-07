@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "CognizantSoftvision",
+  "author": "OpenMAQS",
   "classifications": [ "Test" ], 
-  "name": "CognizantSoftvision MAQS composite template",
-  "identity": "CognizantSoftvision.Maqs.Composite.CSharp",         
-  "groupIdentity":"CognizantSoftvision.Maqs.Composite.Sample",
+  "name": "OpenMAQS MAQS composite template",
+  "identity": "OpenMAQS.Maqs.Composite.CSharp",         
+  "groupIdentity":"OpenMAQS.Maqs.Composite.Sample",
   "shortName": "MaqsComposite",
   "tags": {
     "language": "C#",

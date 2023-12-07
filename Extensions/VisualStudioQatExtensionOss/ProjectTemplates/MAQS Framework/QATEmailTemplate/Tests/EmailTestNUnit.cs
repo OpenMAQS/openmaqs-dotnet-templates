@@ -1,4 +1,4 @@
-using CognizantSoftvision.Maqs.BaseEmailTest;
+using OpenMAQS.Maqs.BaseEmailTest;
 using NUnit.Framework;
 
 namespace $safeprojectname$

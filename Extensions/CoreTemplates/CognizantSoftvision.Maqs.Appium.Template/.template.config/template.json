@@ -1,10 +1,10 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "CognizantSoftvision",
+  "author": "OpenMAQS",
   "classifications": [ "Test" ], 
-  "name": "CognizantSoftvision MAQS Appium template",
-  "identity": "CognizantSoftvision.Maqs.Appium.CSharp",         
-  "groupIdentity":"CognizantSoftvision.Maqs.Appium.Sample",
+  "name": "OpenMAQS MAQS Appium template",
+  "identity": "OpenMAQS.Maqs.Appium.CSharp",         
+  "groupIdentity":"OpenMAQS.Maqs.Appium.Sample",
   "shortName": "MaqsAppium",
   "tags": {
     "language": "C#",
