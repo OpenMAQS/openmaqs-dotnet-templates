@@ -1,3 +1,6 @@
+![MAQS Logo](https://github.com/OpenMAQS/openmaqs-dotnet/blob/main/docs/resources/maqsfull.png?raw=true)
+
+
 | Check | Status |
 |-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |**Pipeline**| [![OpenMAQS DotNet Pipeline](https://github.com/OpenMAQS/openmaqs-dotnet/actions/workflows/build.yml/badge.svg)](https://github.com/OpenMAQS/openmaqs-dotnet/actions/workflows/build.yml)                     |
@@ -16,6 +19,7 @@
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/dashboard?id=OpenMAQS_openmaqs-dotnet)
 
 
+>>>>>>> main
 
 # MAQS
 
