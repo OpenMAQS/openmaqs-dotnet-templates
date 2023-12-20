@@ -1,3 +1,6 @@
+![MAQS Logo](https://github.com/OpenMAQS/openmaqs-dotnet/blob/main/docs/resources/maqsfull.png?raw=true)
+
+
 | Check | Status |
 |-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |**Pipeline**| [![OpenMAQS DotNet Pipeline](https://github.com/OpenMAQS/openmaqs-dotnet/actions/workflows/build.yml/badge.svg)](https://github.com/OpenMAQS/openmaqs-dotnet/actions/workflows/build.yml)                     |
@@ -7,14 +10,11 @@
 <!-- | **Extensions**| [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/vs-publisher-1465771.MAQSOpenFramework.svg?label=Visual%20Studio%20Extension)](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1465771.MAQSOpenFramework) [![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/vs-publisher-1465771.MAQSOpenFramework?label=Extension%20Downloads)](https://marketplace.visualstudio.com/items?itemName=vs-publisher-1465771.MAQSOpenFramework)                 | -->
 
 
-
-
 ## Powered By
 
 [![Testing Powered By SauceLabs](https://opensource.saucelabs.com/images/opensauce/powered-by-saucelabs-badge-white.png?sanitize=true "Testing Powered By SauceLabs")](https://saucelabs.com)
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/dashboard?id=OpenMAQS_openmaqs-dotnet)
-
 
 
 # MAQS
