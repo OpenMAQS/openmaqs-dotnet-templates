@@ -29,9 +29,9 @@
   Purpose/Change: Add SpecFlow templates.
 
   Version:        5.0
-  Author:         Cognizant
-  Creation Date:  01/18/2022
-  Purpose/Change: Update for Cognizant Softvision. 
+  Author:         OpenMAQS
+  Creation Date:  01/18/2023
+  Purpose/Change: Update for Softvision. 
   
 .EXAMPLE
   ./TemplateUpdates

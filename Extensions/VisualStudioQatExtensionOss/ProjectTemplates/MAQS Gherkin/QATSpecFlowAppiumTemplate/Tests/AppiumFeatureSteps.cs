@@ -1,5 +1,5 @@
-﻿using CognizantSoftvision.Maqs.SpecFlow.TestSteps;
-using CognizantSoftvision.Maqs.Utilities.Helper;
+﻿using OpenMAQS.Maqs.SpecFlow.TestSteps;
+using OpenMAQS.Maqs.Utilities.Helper;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
