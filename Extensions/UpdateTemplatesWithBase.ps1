@@ -11,12 +11,12 @@
   Purpose/Change: Initial script development. 
 
   Version:        2.0
-  Author:         Cognizant
+  Author:         OpenMAQS
   Creation Date:  01/18/2022
-  Purpose/Change: Update for Cognizant Softvision. 
-  
+  Purpose/Change: Update for Softvision. 
+
   Version:        3.0
-  Author:         Cognizant
+  Author:         OpenMAQS
   Creation Date:  04/18/2022
   Purpose/Change: Add Playwright. 
 #>

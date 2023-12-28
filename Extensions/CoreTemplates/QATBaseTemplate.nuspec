@@ -5,17 +5,17 @@
     <version>8.0</version>
     <title>MAQS Core Templates</title>
     <authors>OpenMAQS</authors>
-    <owners>Cognizant</owners>
+    <owners>OpenMAQS</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <icon>MAQS.jpg</icon>
     <projectUrl>https://github.com/OpenMAQS/maqs-dotnet</projectUrl>
     <description>Modular automation quick start .Net Core templates</description>
-    <copyright>Copyright © Cognizant 2022</copyright>
+    <copyright>Copyright © OpenMAQS 2023</copyright>
     <summary>Templates for OpenMAQS's automation framework. 
 This package includes templates for browser, mobile, web service, database, email, generic and composite test solutions.</summary>
     <releaseNotes>
-      8.*.* - 2022/1/13 +
+      8.*.* - 2023/1/13 +
       See release notes at: https://github.com/OpenMAQS/maqs-dotnet/releases
     
     </releaseNotes>
