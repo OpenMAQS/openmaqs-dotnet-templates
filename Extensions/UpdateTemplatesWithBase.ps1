@@ -11,14 +11,19 @@
   Purpose/Change: Initial script development. 
 
   Version:        2.0
-  Author:         OpenMAQS
+  Author:         Cognizant Softvision
   Creation Date:  01/18/2022
   Purpose/Change: Update for Softvision. 
 
   Version:        3.0
-  Author:         OpenMAQS
+  Author:         Cognizant Softvision
   Creation Date:  04/18/2022
   Purpose/Change: Add Playwright. 
+  
+  Version:        4.0
+  Author:         OpenMAQS
+  Creation Date:  04/18/2022
+  Purpose/Change: Update for OpenMAQS.
 #>
 
 Function UpdateCore {
