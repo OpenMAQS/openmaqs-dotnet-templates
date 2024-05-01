@@ -54,7 +54,7 @@ jobs:
 
   build:
     name: Build templates
-    runs-on: windows-2023 
+    runs-on: windows-2022 
     needs: getVersion
     env:
       Solution_Name: Extensions\OpenSourceExtension.sln
