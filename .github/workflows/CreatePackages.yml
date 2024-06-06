@@ -157,7 +157,7 @@ jobs:
               cd Composite
               dotnet new MaqsComposite
               dotnet build
-              & Tests/bin/Debug/netcoreapp3.1/playwright.ps1
+              & Tests/bin/Debug/net6.0/playwright.ps1
               dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name=\"SeleniumMaqs:Browser\",value=\"HeadlessChrome\")' 'TestRunParameters.Parameter(name=\"PlaywrightMaqs:Headless\",value=\"YES\")' 
               cd ..
               mkdir Database
