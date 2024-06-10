@@ -5,7 +5,7 @@
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>  
   <ItemGroup>
-    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <!-- <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" /> -->
     <PackageReference Include="OpenMAQS.Maqs.Email" Version="10.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
