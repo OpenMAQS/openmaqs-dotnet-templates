@@ -158,7 +158,7 @@ jobs:
               dotnet new MaqsComposite
               dotnet build
               & Tests/bin/Debug/net8.0/playwright.ps1 install
-              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name=\"SeleniumMaqs:Browser\",value=\"HeadlessChrome\")' 'TestRunParameters.Parameter(name=\"PlaywrightMaqs:Headless\",value=\"YES\")' 
+              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name="SeleniumMaqs:Browser",value="HeadlessChrome")' 'TestRunParameters.Parameter(name="PlaywrightMaqs:Headless",value="YES")' 
               cd ..
               mkdir Database
               cd Database
@@ -173,12 +173,12 @@ jobs:
               mkdir Selenium
               cd Selenium
               dotnet new MaqsSelenium
-              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name=\"SeleniumMaqs:Browser\",value=\"HeadlessChrome\")'  
+              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name="SeleniumMaqs:Browser",value="HeadlessChrome")'  
               cd ..
               mkdir Playwright
               cd Playwright
               dotnet new MaqsPlaywright
-              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name=\"PlaywrightMaqs:Headless\",value=\"YES\")' 
+              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name="PlaywrightMaqs:Headless",value="YES")' 
               cd ..
               mkdir Webservice
               cd Webservice
