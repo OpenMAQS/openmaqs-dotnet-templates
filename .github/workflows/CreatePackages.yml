@@ -141,7 +141,7 @@ jobs:
       - name: Run Core Tests
         shell: pwsh
         run: |
-              dotnet new -i "${{github.workspace}}/nuget/OpenMAQS.Maqs.Templates.${{ needs.getVersion.outputs.buildNumber }}.nupkg"
+              dotnet new install "${{github.workspace}}/nuget/OpenMAQS.Maqs.Templates.${{ needs.getVersion.outputs.buildNumber }}.nupkg"
               mkdir Results
               mkdir Appium
               cd Appium
@@ -157,7 +157,7 @@ jobs:
               cd Composite
               dotnet new OpenMaqsComposite
               dotnet build
-              ./Tests/bin/Debug/net8.0/playwright.ps1 install
+              pwsh Tests/bin/Debug/net8.0/playwright.ps1 install
               dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name="SeleniumMaqs:Browser",value="HeadlessChrome")' 'TestRunParameters.Parameter(name="PlaywrightMaqs:Headless",value="YES")' 
               cd ..
               mkdir Database
