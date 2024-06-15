@@ -13,6 +13,9 @@
     <PackageReference Include="MSTest.TestAdapter" Version="3.4.3" />
   </ItemGroup>
   <ItemGroup>
+    <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="appsettings.json" />
   </ItemGroup>
   <ItemGroup>
