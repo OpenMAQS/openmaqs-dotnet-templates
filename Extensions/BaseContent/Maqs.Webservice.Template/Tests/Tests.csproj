@@ -18,7 +18,6 @@
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
   <ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\WebServiceModel\WebServiceModel.csproj" />
   </ItemGroup>
   <ItemGroup>
