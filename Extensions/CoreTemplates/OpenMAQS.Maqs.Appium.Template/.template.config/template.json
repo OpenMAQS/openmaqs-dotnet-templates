@@ -5,7 +5,7 @@
   "name": "OpenMAQS Appium template",
   "identity": "OpenMAQS.Maqs.Appium.CSharp",         
   "groupIdentity":"OpenMAQS.Maqs.Appium.Sample",
-  "shortName": "MaqsAppium",
+  "shortName": "OpenMaqsAppium",
   "tags": {
     "language": "C#",
     "type":"project"

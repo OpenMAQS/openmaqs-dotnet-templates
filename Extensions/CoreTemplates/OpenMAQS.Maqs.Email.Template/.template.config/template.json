@@ -5,7 +5,7 @@
   "name": "OpenMAQS email template",
   "identity": "OpenMAQS.Maqs.Email.CSharp",         
   "groupIdentity":"OpenMAQS.Maqs.Email.Sample",
-  "shortName": "MaqsEmail",
+  "shortName": "OpenMaqsEmail",
   "tags": {
     "language": "C#",
     "type":"project"

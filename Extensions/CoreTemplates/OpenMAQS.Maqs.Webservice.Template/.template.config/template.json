@@ -5,7 +5,7 @@
   "name": "OpenMAQS webservice template",
   "identity": "OpenMAQS.Maqs.Webservice.CSharp",         
   "groupIdentity":"OpenMAQS.Maqs.Webservice.Sample",
-  "shortName": "MaqsWebservice",
+  "shortName": "OpenMaqsWebservice",
   "tags": {
     "language": "C#",
     "type":"project"

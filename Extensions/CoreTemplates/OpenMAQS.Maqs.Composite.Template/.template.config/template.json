@@ -5,7 +5,7 @@
   "name": "OpenMAQS composite template",
   "identity": "OpenMAQS.Maqs.Composite.CSharp",         
   "groupIdentity":"OpenMAQS.Maqs.Composite.Sample",
-  "shortName": "MaqsComposite",
+  "shortName": "OpenMaqsComposite",
   "tags": {
     "language": "C#",
     "type":"project"

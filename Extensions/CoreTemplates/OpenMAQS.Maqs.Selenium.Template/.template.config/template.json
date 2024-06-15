@@ -5,7 +5,7 @@
   "name": "OpenMAQS Selenium template",
   "identity": "OpenMAQS.Maqs.Selenium.CSharp",         
   "groupIdentity":"OpenMAQS.Maqs.Selenium.Sample",
-  "shortName": "MaqsSelenium",
+  "shortName": "OpenMaqsSelenium",
   "tags": {
     "language": "C#",
     "type":"project"

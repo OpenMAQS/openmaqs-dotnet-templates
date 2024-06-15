@@ -5,7 +5,7 @@
   "name": "OpenMAQS database template",
   "identity": "OpenMAQS.Maqs.Database.CSharp",         
   "groupIdentity":"OpenMAQS.Maqs.Database.Sample",
-  "shortName": "MaqsDatabase",
+  "shortName": "OpenMaqsDatabase",
   "tags": {
     "language": "C#",
     "type":"project"
