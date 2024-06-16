@@ -1,4 +1,4 @@
-# <img src="resources/maqslogo.ico" height="32" width="32"> FAQ
+# <img src="resources/openmaqslogo.ico" height="32" width="32"> FAQ
 
 # Open source VS enterprise version
 As of July 2019, MAQS became fully open source.  
@@ -15,6 +15,7 @@ Templates can be found in the [Visual Studio Marketplace](https://marketplace.vi
    - Database 
    - Email (IMAP only)  
    - Selenium (with tests and page object models) 
+   - Playwright (with tests and page object models) 
    - Web Service (with tests, json models and xml models)  
 - DotNet Framework item templates  
    - Appium tests (Visual Studio and NUnit versions)
@@ -24,6 +25,8 @@ Templates can be found in the [Visual Studio Marketplace](https://marketplace.vi
    - Email tests (Visual Studio and NUnit versions) 
    - Selenium tests (Visual Studio and NUnit versions)
    - Selenium page object model
+   - Playwright tests (Visual Studio and NUnit versions)
+   - Playwright page object model
    - Web Service tests (Visual Studio and NUnit versions)
 - DotNet Core project templates - https://www.nuget.org/packages/OpenMAQS.Maqs.Templates 
    - Appium (with tests and page object models) 
@@ -31,7 +34,8 @@ Templates can be found in the [Visual Studio Marketplace](https://marketplace.vi
    - Composite (mix and match all MAQS capabilities)  
    - Database 
    - Email (IMAP only)  
-   - Selenium (with tests and page object models) 
+   - Selenium (with tests and page object models)   
+   - Playwright (with tests and page object models)
    - Web Service (with tests, json models and xml models) 
 
 

@@ -1,4 +1,4 @@
-# <img src="resources/maqslogo.ico" height="32" width="32"> Getting Started 
+# <img src="resources/openmaqslogo.ico" height="32" width="32"> Getting Started 
 
 ## Installing and Building Your First Project
 After the MAQS Visual Studio Extension has been installed, you're ready to start testing.
@@ -224,4 +224,4 @@ string testCategory = "Login Tests"
  - learn more about dotnet test --filter at [docs.microsoft.com](https://docs.microsoft.com/en-us/dotnet/core/testing/selective-unit-tests)
 
 ## Configurations
-There are a number of configurations included with MAQS.  Checkout the [MAQS Configurations](MAQS_6/General/EnterpriseConfiguration.md) guide.
+There are a number of configurations included with MAQS.  Checkout the [MAQS Configurations](OPENMAQS_10/General/EnterpriseConfiguration.md) guide.

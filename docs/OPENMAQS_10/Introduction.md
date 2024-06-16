@@ -1,4 +1,4 @@
-# <img src="resources/maqslogo.ico" height="32" width="32"> MAQS
+# <img src="resources/openmaqslogo.ico" height="32" width="32"> MAQS
 
 ## Introduction to MAQS
 MAQS stands for Modular Automation Quick Start.

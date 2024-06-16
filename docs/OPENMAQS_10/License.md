@@ -1,4 +1,4 @@
-# <img src="resources/maqslogo.ico" height="32" width="32"> License
+# <img src="resources/openmaqslogo.ico" height="32" width="32"> License
 The MIT License (MIT)
 Copyright (c) 2023 OpenMAQS
 
