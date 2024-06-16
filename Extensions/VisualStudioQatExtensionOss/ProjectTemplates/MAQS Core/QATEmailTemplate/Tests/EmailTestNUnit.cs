@@ -1,5 +1,6 @@
 using OpenMAQS.Maqs.BaseEmailTest;
 using NUnit.Framework;
+using Assert = NUnit.Framework.Assert;
 
 namespace $safeprojectname$
 {

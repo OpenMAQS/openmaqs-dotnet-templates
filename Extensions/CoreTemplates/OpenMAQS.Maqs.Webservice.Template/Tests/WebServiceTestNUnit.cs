@@ -3,6 +3,7 @@ using NUnit.Framework;
 using System;
 using System.Net.Http;
 using WebServiceModel;
+using Assert = NUnit.Framework.Assert;
 
 namespace Tests
 {
