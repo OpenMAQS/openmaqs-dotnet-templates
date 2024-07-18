@@ -1,5 +1,5 @@
 ﻿using System;
-using CognizantSoftvision.Maqs.BaseAppiumTest;
+using OpenMAQS.Maqs.BaseAppiumTest;
 using OpenQA.Selenium;
 namespace PageModel
 {

@@ -19,6 +19,7 @@
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/dashboard?id=OpenMAQS_openmaqs-dotnet)
 
 
+>>>>>>> main
 
 # MAQS
 
@@ -37,11 +38,7 @@ The main idea behind MAQS is to avoid **reinventing the wheel**. Most automation
 
 ## Documentation
 
-- [MAQS 9](https://openmaqs.github.io/openmaqs-dotnet/#/MAQS_9/Introduction)
-- [MAQS 8](https://openmaqs.github.io/maqs-dotnet/#/MAQS_8/Introduction)
-- [MAQS 7](https://magenic.github.io/MAQS/#/MAQS_7/Introduction) 
-  *Version 7 will no longer get feature updates
-
+- [MAQS 10](https://openmaqs.github.io/openmaqs-dotnet/#/OPENMAQS_10/Introduction)
 
 ## License
 

@@ -1,8 +1,9 @@
-using CognizantSoftvision.Maqs.BaseWebServiceTest;
+using OpenMAQS.Maqs.BaseWebServiceTest;
 using NUnit.Framework;
 using System;
 using System.Net.Http;
 using WebServiceModel;
+using Assert = NUnit.Framework.Assert;
 
 namespace $safeprojectname$
 {
@@ -18,7 +19,7 @@ namespace $safeprojectname$
         [Test]
         public void GetResource()
         {
-            string result = this.WebServiceDriver.Get("maqs-dotnet-templates/README.md", "text/markdown");
+            string result = this.WebServiceDriver.Get("openmaqs-dotnet-templates/README.md", "text/markdown");
 
             Assert.IsTrue(result.Contains("MAQS"), "Expected readme to contain the name 'MAQS'");
         }

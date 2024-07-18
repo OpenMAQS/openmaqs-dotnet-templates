@@ -1,6 +1,7 @@
-using CognizantSoftvision.Maqs.BaseSeleniumTest;
+using OpenMAQS.Maqs.BaseSeleniumTest;
 using NUnit.Framework;
 using PageModel;
+using Assert = NUnit.Framework.Assert;
 
 namespace $safeprojectname$
 {

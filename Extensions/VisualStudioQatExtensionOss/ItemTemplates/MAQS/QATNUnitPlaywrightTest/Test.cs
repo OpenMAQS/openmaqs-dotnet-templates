@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
+﻿using OpenMAQS.Maqs.BasePlaywrightTest;
 using NUnit.Framework;
 
 // TODO: Add reference to object model

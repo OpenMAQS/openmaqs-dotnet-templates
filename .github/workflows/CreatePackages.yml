@@ -45,7 +45,7 @@ jobs:
             else
             {
               Write-Host "Using latest MAQS release version"
-              $endPoint = "https://api.github.com/repos/CognizantOpenSource/maqs-dotnet/releases/latest"
+              $endPoint = "https://api.github.com/repos/OpenMAQS/maqs-dotnet/releases/latest"
               $info = Invoke-RestMethod -Uri $endPoint
               $version = $info.name.Trim("v")
             }
@@ -79,7 +79,7 @@ jobs:
     - name: Install .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 5.0.x
+        dotnet-version: 8.x.x
 
     # Add the template data to the template zip files
     - uses: actions/checkout@v1
@@ -141,48 +141,48 @@ jobs:
       - name: Run Core Tests
         shell: pwsh
         run: |
-              dotnet new -i "${{github.workspace}}/nuget/CognizantSoftvision.Maqs.Templates.${{ needs.getVersion.outputs.buildNumber }}.nupkg"
+              dotnet new install "${{github.workspace}}/nuget/OpenMAQS.Maqs.Templates.${{ needs.getVersion.outputs.buildNumber }}.nupkg"
               mkdir Results
               mkdir Appium
               cd Appium
-              dotnet new MaqsAppium
+              dotnet new OpenMaqsAppium
               dotnet test --logger trx --results-directory "${{github.workspace}}/Results/"
               cd ..
               mkdir Base
               cd Base
-              dotnet new MaqsBase
+              dotnet new OpenMaqsBase
               dotnet test --logger trx --results-directory "${{github.workspace}}/Results/"
               cd ..
               mkdir Composite
               cd Composite
-              dotnet new MaqsComposite
+              dotnet new OpenMaqsComposite
               dotnet build
-              & Tests/bin/Debug/netcoreapp3.1/playwright.ps1
-              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name=\"SeleniumMaqs:Browser\",value=\"HeadlessChrome\")' 'TestRunParameters.Parameter(name=\"PlaywrightMaqs:Headless\",value=\"YES\")' 
+              pwsh ./Tests/bin/Debug/net8.0/playwright.ps1 install
+              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name="SeleniumMaqs:Browser",value="HeadlessChrome")' 'TestRunParameters.Parameter(name="PlaywrightMaqs:Headless",value="YES")' 
               cd ..
               mkdir Database
               cd Database
-              dotnet new MaqsDatabase
+              dotnet new OpenMaqsDatabase
               dotnet test --logger trx --results-directory "${{github.workspace}}/Results/"
               cd ..
               mkdir Email
               cd Email
-              dotnet new MaqsEmail
+              dotnet new OpenMaqsEmail
               dotnet test --logger trx --results-directory "${{github.workspace}}/Results/"
               cd ..
               mkdir Selenium
               cd Selenium
-              dotnet new MaqsSelenium
-              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name=\"SeleniumMaqs:Browser\",value=\"HeadlessChrome\")'  
+              dotnet new OpenMaqsSelenium
+              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name="SeleniumMaqs:Browser",value="HeadlessChrome")'  
               cd ..
               mkdir Playwright
               cd Playwright
-              dotnet new MaqsPlaywright
-              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name=\"PlaywrightMaqs:Headless\",value=\"YES\")' 
+              dotnet new OpenMaqsPlaywright
+              dotnet test --logger trx --results-directory '${{github.workspace}}/Results/' -- 'TestRunParameters.Parameter(name="PlaywrightMaqs:Headless",value="YES")' 
               cd ..
               mkdir Webservice
               cd Webservice
-              dotnet new MaqsWebservice
+              dotnet new OpenMaqsWebservice
               dotnet test --logger trx --results-directory "${{github.workspace}}/Results/"
               
       - name: Test Report

@@ -1,5 +1,5 @@
-﻿using CognizantSoftvision.Maqs.BaseAppiumTest;
-using CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions;
+﻿using OpenMAQS.Maqs.BaseAppiumTest;
+using OpenMAQS.Maqs.BaseSeleniumTest.Extensions;
 using OpenQA.Selenium;
 namespace Models.Mobile
 {

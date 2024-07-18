@@ -1,5 +1,6 @@
-using CognizantSoftvision.Maqs.BaseDatabaseTest;
+using OpenMAQS.Maqs.BaseDatabaseTest;
 using NUnit.Framework;
+using Assert = NUnit.Framework.Assert;
 
 namespace $safeprojectname$
 {

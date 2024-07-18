@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "OpenMAQS",
+  "classifications": [ "Test" ], 
+  "name": "OpenMAQS email template",
+  "identity": "OpenMAQS.Maqs.Email.CSharp",         
+  "groupIdentity":"OpenMAQS.Maqs.Email.Sample",
+  "shortName": "OpenMaqsEmail",
+  "tags": {
+    "language": "C#",
+    "type":"project"
+  },
+  "sources": [
+    {
+      "copyOnly": "**/*"
+    }
+  ]
+}

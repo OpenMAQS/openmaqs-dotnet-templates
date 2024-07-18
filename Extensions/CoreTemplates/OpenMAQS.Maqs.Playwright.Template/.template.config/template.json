@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "OpenMAQS",
+  "classifications": [ "Test" ], 
+  "name": "OpenMAQS Playwright template",
+  "identity": "OpenMAQS.Maqs.Playwright.CSharp",         
+  "groupIdentity":"OpenMAQS.Maqs.Playwright.Sample",
+  "shortName": "OpenMaqsPlaywright",
+  "tags": {
+    "language": "C#",
+    "type":"project"
+  },
+  "sources": [
+    {
+      "copyOnly": "**/*"
+    }
+  ]
+}

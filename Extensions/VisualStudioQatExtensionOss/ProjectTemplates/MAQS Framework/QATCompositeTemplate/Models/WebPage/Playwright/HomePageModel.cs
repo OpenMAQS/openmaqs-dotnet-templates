@@ -1,4 +1,4 @@
-﻿using CognizantSoftvision.Maqs.BasePlaywrightTest;
+﻿using OpenMAQS.Maqs.BasePlaywrightTest;
 
 namespace Models.WebPage.Playwright
 {

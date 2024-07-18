@@ -1,5 +1,5 @@
-﻿using CognizantSoftvision.Maqs.BaseSeleniumTest;
-using CognizantSoftvision.Maqs.BaseSeleniumTest.Extensions;
+﻿using OpenMAQS.Maqs.BaseSeleniumTest;
+using OpenMAQS.Maqs.BaseSeleniumTest.Extensions;
 using OpenQA.Selenium;
 
 namespace Models.WebPage.Selenium

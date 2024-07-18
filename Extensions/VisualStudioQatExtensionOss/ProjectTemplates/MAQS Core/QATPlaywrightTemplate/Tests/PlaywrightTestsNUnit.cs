@@ -1,6 +1,7 @@
-using CognizantSoftvision.Maqs.BasePlaywrightTest;
+using OpenMAQS.Maqs.BasePlaywrightTest;
 using NUnit.Framework;
 using PageModel;
+using Assert = NUnit.Framework.Assert;
 
 namespace $safeprojectname$
 {
