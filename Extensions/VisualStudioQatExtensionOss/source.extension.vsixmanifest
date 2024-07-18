@@ -8,8 +8,8 @@
         <License>License.txt</License>
         <GettingStartedGuide>https://openmaqs.github.io/openmaqs-dotnet/#/MAQS_9/Getting-Started</GettingStartedGuide>
         <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
-        <Icon>QATTest-New-resized.ico</Icon>
-        <PreviewImage>QATTest-New-resized.ico</PreviewImage>
+        <Icon>QATTest.ico</Icon>
+        <PreviewImage>QATTest.ico</PreviewImage>
         <Tags>Automation;Selenium;Playwright;Appium;Database;Web Service;Email;MAQS;NUnit;MSTest;Test Framework;Test;Testing</Tags>
     </Metadata>
     <Installation>
